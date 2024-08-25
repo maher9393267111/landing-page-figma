@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div>
       <div class="w-[90%] mx-auto !mt-[150px] ">
-        <div class=" w-full relative pb-4 bg-gradient-to-br from-[#080852] to-[#1956DC] bg-center rounded-2xl">
+        <div class=" w-full relative pb-4 bg-gradient-to-br from-[#080852 to-[#1956DC  bg-[#080852] bg-center rounded-2xl">
 
           <img
             class="absolute   bottom-[3px] md:bottom-[-5%] left-[9%] md:left-[23%] !w-[80%]  md:!w-[60%]   -z-2 opacity-[0.2"
