@@ -24,7 +24,7 @@ export default function Index({}) {
     <div className=" ">
       <NextSeo title="Nabhan | Nabhan Furniture | Nabhan Mobilya" />
 
-<div className="mb-2">
+<div className="mb-2  overflow-x-hidden">
 
 <Navbar/>
 <SectionOne/>
