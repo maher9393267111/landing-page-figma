@@ -58,7 +58,7 @@ setOpen(!open)
 
 
   return (
-    <div className="hero-overla h-[466px]   md:h-[800px]  ">
+    <div className="hero-overla h-[555px]   md:h-[800px]  ">
       <div
       
         style={{
@@ -68,13 +68,13 @@ setOpen(!open)
         className="bg h-[466px]   md:h-[800px]   relative"
       >
 
-
-{/* <div className="absolute bg-gradient-to-tr from-[rgb(75,100,137)] to-[hsl(262,36%,42%)] right-0 top-0 left-0 bottom-0">
+{/* 
+ <div className="absolute bg-gradient-to-tr from-[rgb(75,100,137)] to-[hsl(262,36%,42%)] right-0 top-0 left-0 bottom-0">
           <img src="/section1.jpg" className="w-full h-full" />
-        </div> */}
+        </div>  */}
 
 
-        <div className="absolute right-0 top-32">
+        <div className="absolute -right-[300px] md:-right-12 top-32    ">
          <img src="/section1.png" className="w-[720px]" /> 
         </div>
         <div className={`fixed  left-0  overflow-hidden  false  z-[9999]   w-screen ${isFixed ? 'bg-[#080852] top-2' : ' top-4'}`}>
@@ -82,7 +82,7 @@ setOpen(!open)
             <div>
             {!open && 
               <img
-                className="w-[204px] h-[71px]"
+                className="md:w-[204px] md:h-[71px] w-[165px] h-[60px]"
                 src="/logo.png"
               />
             }
