@@ -39,15 +39,16 @@ const products = [
 
 const settings = {
   className: "center",
-  centerMode: true,
+  // centerMode: true,
   infinite: true,
   centerPadding: "60px",
-    slidesToShow: 1,
+  slidesToShow: 1,
+  slidesToScroll: 1,
   speed: 500,
  // rows: 2,
     slidesPerRow: 2,
-    rows: width <600 ? 2 : 1,
-   slidesPerRow:width <600 ? 1 : 1 ,
+    rows: 2,
+   slidesPerRow:1 ,
 
   responsive: [
     {
@@ -83,7 +84,7 @@ const settings = {
     {
       breakpoint: 480,
       settings: {
-        slidesToShow: 5,
+        slidesToShow: 2,
         slidesToScroll: 1,
  
         
@@ -98,7 +99,7 @@ const settings = {
         {/* <h5 className="text-center py-5 text-xl font-semibold">
           پیشنهاد دیجی‌کالا
         </h5> */}
-        {width}
+        
         <div className="w-full h-80 cursor-pointer mb-5 overflow-hidden">
 
 

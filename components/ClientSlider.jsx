@@ -6,7 +6,7 @@ import { Grid, Navigation , Pagination } from "swiper/modules";
 import Image from "next/image";
 import Link from "next/link";
 import { Fragment } from "react";
-
+import Slider from 'react-slick'
 
 export default function ClientSlider({  }) {
 const product = true
@@ -34,9 +34,75 @@ const products = [
     { id: 1, image: "/Done/apple.png" },
     { id: 1, image: "/Done/apple.png" },
     { id: 1, image: "/Done/apple.png" },
-
+    { id: 1, image: "/Done/apple.png" },
+    { id: 1, image: "/Done/apple.png" },
+    { id: 1, image: "/Done/apple.png" },
+    { id: 1, image: "/Done/apple.png" },
 
 ]
+
+
+const settings = {
+  className: "center",
+  // centerMode: true,
+  infinite: true,
+  centerPadding: "60px",
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  dots:true,
+  speed: 500,
+ // rows: 2,
+    
+    rows: 3,
+   slidesPerRow:1 ,
+
+  responsive: [
+    {
+      breakpoint: 1700,
+      settings: {
+        slidesToShow: 7,
+        slidesToScroll: 7,
+        infinite: true,
+        dots: true,
+
+      }
+    },
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        infinite: true,
+        dots: true,
+
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        initialSlide: 2,
+        dots:true
+    
+      
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        dots:true
+ 
+        
+      }
+    }
+  ]
+};
+
+
+
 
   return (
     product && (
@@ -52,7 +118,32 @@ const products = [
   alt="wallpaper" class="absolute inset-0 w-full h-[1000px] object-cover mix-blend-overlay"/>
 
 
-        <div className="w-full h-80 cursor-pointer mb-5">
+        <div className="w-full cursor-pointer mb-5">
+
+        <Slider {...settings}>
+
+
+        {products
+            
+            .map((product, index) => {
+              return (
+              //   <Fragment key={index}>
+             
+                    <div key={index}>
+                       <img class="w-[250px] object-cover h-[250px]" src={product?.image}/>
+                  </div>
+                
+              //   </Fragment>
+              );
+            })}
+
+
+
+        </Slider>
+
+
+
+
           <Swiper
 
 

@@ -38,13 +38,13 @@ const settings = {
   // centerMode: true,
   infinite: true,
   centerPadding: "60px",
-  slidesToShow: 2,
-  slidesToScroll: 2,
+  slidesToShow: 1,
+  slidesToScroll: 1,
   speed: 500,
  // rows: 2,
     slidesPerRow: 2,
     rows: 2,
-   slidesPerRow:2 ,
+   slidesPerRow:1 ,
 
   responsive: [
     {
