@@ -17,12 +17,14 @@
 
 *{
   scroll-behavior: smooth;
+  overflow-x: hidden !important;
+
 }
 
 body {
 
   font-family: 'Bahij !important';
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   
   /* margin: 0 auto;
   font-size: 16px;
