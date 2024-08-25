@@ -13,13 +13,14 @@ import {
   ModalBody,
   ModalCloseButton,
   useDisclosure,
-  Button
+  Button,
 } from "@chakra-ui/react";
+import Image from "next/image";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
-   const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleToggleMenu = () => {
     setOpen(!open);
@@ -69,31 +70,29 @@ export default function Navbar() {
     };
   }, []);
 
-
   // const {  isOpen, onOpen, onClose } = useDisclosure()
 
-
-
-  const openModal =()=>{
-
-    //  setIsOpen(true) 
-     console.log("ssasas")
-  }
+  const openModal = () => {
+    //  setIsOpen(true)
+    console.log("ssasas");
+  };
 
   return (
-    <div className="hero-overla h-[555px]   md:h-[800px]  ">
+    <div className=" h-[555px]  z-50  md:h-[800px]    ">
       <div
         style={{
           backgroundImage:
             "url(https://unlimed-com.vercel.app/img/wallpaper.jpeg)",
         }}
-        className="bg h-[466px]   md:h-[800px]   relative"
+
+        className="bg h-[466px]   md:h-[800px]     "
       >
-        {/* 
- <div className="absolute bg-gradient-to-tr from-[rgb(75,100,137)] to-[hsl(262,36%,42%)] right-0 top-0 left-0 bottom-0">
-          <img src="/section1.jpg" className="w-full h-full" />
-        </div>  */}
-         <ContactModal isOpen={isOpen} setIsOpen={setIsOpen}/>
+         
+
+         {/* <div class="    bg-blue-950 z-1 from-[rgb(75,100,137)] to-[hsl(262,36%,42%)] bg-opacity-50 w-full h-full"></div> */}
+         
+
+        <ContactModal isOpen={isOpen} setIsOpen={setIsOpen} />
 
         <div className="absolute -right-[300px] md:-right-12 top-32    ">
           <img src="/section1.png" className="w-[720px]" />
@@ -136,12 +135,58 @@ export default function Navbar() {
               </li>
               {/* <img className="cursor-pointer" src="/section1.png" /> */}
             </menu>
-            <ul className=" hidden sm:flex gap-12 list-none items-center text-white">
-              <li  >About</li>
-              <li>Services</li>
-              <li>Members</li>
-              <li>Clients</li>
-              <li>Contact</li>
+            <ul className=" cursor-pointer z-50 hidden sm:flex gap-12 list-none items-center text-white">
+              <li
+                onClick={() => {
+                  const element = document.getElementById("about");
+                  element?.scrollIntoView({
+                    behavior: "smooth",
+                  });
+                }}
+              >
+                About
+              </li>
+              <li
+                onClick={() => {
+                  const element = document.getElementById("services");
+                  element?.scrollIntoView({
+                    behavior: "smooth",
+                  });
+                }}
+              >
+                Services
+              </li>
+
+              <li
+                onClick={() => {
+                  const element = document.getElementById("members");
+                  element?.scrollIntoView({
+                    behavior: "smooth",
+                  });
+                }}
+              >
+                Members
+              </li>
+              <li
+                onClick={() => {
+                  const element = document.getElementById("clients");
+                  element?.scrollIntoView({
+                    behavior: "smooth",
+                  });
+                }}
+              >
+                Clients
+              </li>
+              <li
+                onClick={() => {
+                  const element = document.getElementById("contact");
+                  element?.scrollIntoView({
+                    behavior: "smooth",
+                  });
+                }}
+              >
+                Contact
+              </li>
               <li>
                 <img
                   className="w-[39px] h-[39px]"
@@ -151,12 +196,16 @@ export default function Navbar() {
             </ul>
           </div>
         </div>
-        <div className="flex pt-12 md:pt-2 items-center w-[90%] h-full mx-auto">
+
+       <div className="bg-ble-950  bg-[#080852]  z-1 from-[rgb(75,100,137)] to-[hsl(262,36%,42%)] bg-opacity-50 w-full h-full">
+
+       
+        <div className="flex z-50 pt-12 md:pt-2 items-center w-[90%] h-full mx-auto">
           <div>
             {/* <img src="/titleDesk.png" /> */}
 
             <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
-              <p    class="sm: hidde cursor-pointer  text-[22px]  items-center font-normal  text-white  lg:text-[84px]">
+              <p class="sm: hidde cursor-pointer  text-[22px]  items-center font-normal  text-white  lg:text-[84px]">
                 We Are
                 <div class="flex  items-center mx-2">
                   <img
@@ -204,16 +253,21 @@ export default function Navbar() {
               Collbrate With Us
             </Button> */}
 
-            <Button onClick={()=>setIsOpen(true)} className="relative z-20  bg-white flex justify-center items-center p-4 w-[300px] text-[#080852] font-bold rounded-md mt-4  ">
-              
-            <span>
+            <Button
+              onClick={() => setIsOpen(true)}
+              className="relative z-20  bg-white flex justify-center items-center p-4 w-[300px] text-[#080852] font-bold rounded-md mt-4  "
+            >
+              <span>
                 <img className="w-[24px] h-[15px]" src="/btn2.png" alt="" />
               </span>
               Collbrate With Us
-
             </Button>
           </div>
         </div>
+
+</div>
+
+
 
         {open && (
           <div className=" !z-50 fixed top-0 right-0 left-0 bottom-0 ">
@@ -273,7 +327,6 @@ export default function Navbar() {
           </div>
         )}
       </div>
-     
 
       {/* <>
         <Button onClick={onOpen} className="relative z-50  font-sans mt-16 w-48">Collaborate With Us</Button>
@@ -310,9 +363,6 @@ export default function Navbar() {
           </ModalContent>
         </Modal>
       </> */}
-
-
-
     </div>
   );
 }

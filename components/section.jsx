@@ -2,12 +2,12 @@ import React from "react";
 
 export default function SectionOne() {
   return (
-    <div className="bg-[#f5f5f5  relative  w-full">
+    <div id="about" className="bg-[#f5f5f5]  relative  w-full">
 
 
-<div className="bg-[#f5f5f5] -z- opacity-9 -right-12  !w-full !h-full   bg-[url('/clip-path-group.png')] bg-contai">
+{/* <div className="bg-[#f5f5f5] -z- opacity-9 -right-12  !w-full !h-full   bg-[url('/clip-path-group.png')] bg-contai">
 
-</div>
+</div> */}
 
       
       <div className=" bg-mask flex items-center relative    h-[500px]">

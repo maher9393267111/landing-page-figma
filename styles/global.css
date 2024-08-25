@@ -116,7 +116,7 @@ body {
      /* font-family: "bahiji !important";  */
   }
   body{
-    @apply  !overflow-x-hidden !font-raleway
+    @apply  !overflow-x-hidden !font-raleway 
   }
 
   .hero-overlay{
@@ -125,7 +125,7 @@ body {
 
   .bg::before {
 
- @apply   !bg-gradient-to-tr !from-[rgb(75,100,137)] !to-[hsl(262,36%,42%)]
+ /* @apply   !bg-gradient-to-tr !from-[rgb(75,100,137)] !to-[hsl(262,36%,42%)] */
 
   }
 }

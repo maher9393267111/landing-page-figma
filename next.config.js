@@ -5,15 +5,7 @@ const nextConfig = {
     images: {
       domains: [
         "localhost",
-        "ik.imagekit.io",
-        "mir-s3-cdn-cf.behance.net",
-        "firebasestorage.googleapis.com",
-        "dr-nahas.vercel.app",
-        "marketplace.canva.com",
-        "www.hoponhopoffistanbul.com",
-        "images.unsplash.com",
-        "res.cloudinary.com",
-        "png.pngtree.com"
+        "unlimed-com.vercel.app"
       ],
     },
 

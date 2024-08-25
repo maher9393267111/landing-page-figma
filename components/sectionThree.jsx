@@ -29,6 +29,7 @@ export default function SectionThree() {
 
   return (
     <div 
+    id="members"
     className=" !bg-repeat"
     // style={{
     //   backgroundImage:

@@ -138,7 +138,7 @@ const settings = {
 
   return (
     product && (
-      <>
+      <div id="clients">
         {/* <h5 className="text-center py-5 text-xl font-semibold">
           پیشنهاد دیجی‌کالا
         </h5> */}
@@ -227,7 +227,7 @@ autoplay={true}
               })}
           </Swiper>
         </div>
-      </>
+      </div>
     )
   );
 }
