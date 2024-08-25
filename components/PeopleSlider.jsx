@@ -44,7 +44,7 @@ export default function DigiSuggestion({}) {
     slidesToScroll: 1,
     speed: 500,
     // rows: 2,
-    slidesPerRow: 2,
+    // slidesPerRow: 2,
     rows: 2,
     slidesPerRow: 1,
 
@@ -91,12 +91,12 @@ export default function DigiSuggestion({}) {
           پیشنهاد دیجی‌کالا
         </h5> */}
 
-      <div className="w-full pb-4 mt-6 min-h-80 cursor-pointer mb-5 overflow-hidden">
+      <div className="w-full pb-4  min-h-80 cursor-pointer mb-5 overflow-hidden">
         <Slider {...settings}>
           {products.map((product, index) => {
             return (
               <Fragment key={index}>
-                <div>
+                <div className="mb-2">
                   <div className=" flex cursor-pointer">
                     <img
                       src="/peoopleBg.png"

@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div>
       <div class="w-[90%] mx-auto !mt-[150px] ">
-        <div class=" w-full relative pb-4 bg-gradient-to-br from-[#080852 to-[#1956DC  bg-[#080852] bg-center rounded-2xl">
+        <div class=" w-full relative pb-4 bg-gradient-to-br from-[#080852 to-[#1956DC border-4 border-green-500  bg-[#080852] bg-center rounded-2xl">
 
           <img
             class="absolute   bottom-[3px] md:bottom-[-5%] left-[9%] md:left-[23%] !w-[80%]  md:!w-[60%]   -z-2 opacity-[0.2"
@@ -13,7 +13,7 @@ export default function Footer() {
 
 
 
-          <div class="grid relative z-10 grid-cols-1 sm:grid-cols-2  items-center">
+          <div class="grid relative z-10 py-12 grid-cols-1 lg:grid-cols-2  lg:items-center">
             <div class="p-12 h-full">
               <h3 class="text-white mb-2 font-extralight sm:text-[75px]">
                 Ready to become
@@ -30,8 +30,8 @@ export default function Footer() {
                 our collective expertise.
               </p>
             </div>
-            <div class="text-center mx-auto">
-              <button class="bg-[#82C809] py-3 rounded-md cursor-pointer px-16  flex items-center">
+            <div class="text-center mx-auto w-[100%] px-4 lg:px-0 lg:!w-auto">
+              <button class="bg-[#82C809] xl:-[390px] h-[70px] py-3 rounded-md cursor-pointer px-16  flex items-center">
                 <img src="/btn.png" />
                 <span class="text-white">lock Potential</span>
               </button>
@@ -40,11 +40,11 @@ export default function Footer() {
         </div>
         <div class="pt-32 pb-14 sm:pb-8">
           <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
-            <p class="sm:flex hidde  text-[34px]  items-center font-normal  text-[#191919]  lg:text-[65px]">
+            <p class="sm:flex hidde  text-[34px]  items-center font-normal  text-[#191919]  xl:text-[65px]">
               Unlock Your
               <div class="flex items-center mx-2">
                 <img
-                  class="lg:w-[72px] lg:h-[46px] w-[24px] h-[24px] md:ml-2 md:-mb-2"
+                  class="xl:w-[72px] object-fit xl:h-[46px] w-[24px] h-[24px] md:ml-2 md:-mb-2"
                   src="/UN.png"
                 />
                 <span class="text-[#191919]  uppercase font-semibold">lmtd</span>   <span className="mx-2">Potential</span>
@@ -52,7 +52,7 @@ export default function Footer() {
               {/* Potential */}
             </p>
             {/* <img class="sm:hidden w-[90%]" src="/assets/icon-ft.png" /> */}
-            <button class="bg-white self-end mt-4 p-4 rounded-full text-[#080852] shadow-lg text-lg flex items-center justify-center w-10 h-10">
+            <button onClick={()=>{window.scrollTo(0, 0);}} class="bg-white self-end mt-4 p-4 rounded-full text-[#080852] shadow-lg text-lg flex items-center justify-center w-10 h-10">
               ↑
             </button>
           </div>
