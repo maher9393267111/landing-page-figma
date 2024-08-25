@@ -7,6 +7,7 @@ export default function SectionOne() {
 
 
 
+
 {/* <img 
     src='/clip-path-group.png' 
     alt='un background' 
