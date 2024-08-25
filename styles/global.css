@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;400;700&display=swap");
+
+/* #42A5F5 */
+
+@layer utilities {
+  .container1 {
+    @apply mx-12 px-2;
+  }
+}
+
+*{
+  scroll-behavior: smooth;
+}
+
+body {
+
+  font-family: 'Bahij !important';
+  overflow-x: hidden;
+  
+  /* margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.65;
+  word-break: break-word;
+  font-kerning: auto;
+  font-variant: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  hyphens: auto; */
+
+}
+
+@font-face {
+  font-family: DroidSansMono;
+  src: url("../public/font3/font3.otf");
+}
+
+
+/* ----------- */
+
+@font-face {
+  font-family: 'Bahij';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../public/fonts/Bahij_TheSansArabic-ExtraLight.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Bahij';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../public/fonts/Bahij_TheSansArabic-SemiLight.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Bahij';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../public/fonts/Bahij_TheSansArabic-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Bahij';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../public/fonts/Bahij_TheSansArabic-Plain.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Bahij';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../public/fonts/Bahij\ Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Bahij';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../public/fonts/Bahij Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Bahij';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../public/fonts/Bahij_TheSansArabic-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Bahij';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../public/fonts/Bahij_TheSansArabic-Black 10.ttf') format('truetype');
+}
+
+
+
+.arabic{
+
+  font-family: 'Bahij';
+
+
+}
+/* -------- */
+
+
+
+
+@layer base {
+  * {
+    @apply select-none;
+     /* font-family: "bahiji !important";  */
+  }
+
+  .hero-overlay{
+    @apply !bg-gradient-to-tr !from-[rgb(75,100,137)] !to-[hsl(262,36%,42%)]   !top-0 absolute right-0 left-0 bottom-0 !z-10
+  }
+
+  .bg::before {
+
+ @apply   !bg-gradient-to-tr !from-[rgb(75,100,137)] !to-[hsl(262,36%,42%)]
+
+  }
+}
+
+
+
+.bg::before {
+  content:'';
+  position:absolute;
+  z-index:-1;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+
+}
+
+
+
+
+
