@@ -7,7 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Fragment , useState } from "react";
 import CompanyModal from "./modals/companyModal";
-
+import Slider from "react-slick";
 export default function DigiSuggestion({  }) {
 const product = true
  
@@ -32,6 +32,65 @@ const products = [
 
 ]
 
+
+const settings = {
+  className: "center",
+  // centerMode: true,
+  infinite: true,
+  centerPadding: "60px",
+  slidesToShow: 2,
+  slidesToScroll: 2,
+  speed: 500,
+ // rows: 2,
+    slidesPerRow: 2,
+    rows: 2,
+   slidesPerRow:2 ,
+
+  responsive: [
+    {
+      breakpoint: 1700,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: false,
+
+      }
+    },
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true,
+
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        initialSlide: 2,
+    
+      
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+ 
+        
+      }
+    }
+  ]
+};
+
+
+
   return (
     product && (
       <>
@@ -39,7 +98,56 @@ const products = [
           پیشنهاد دیجی‌کالا
         </h5> */}
         <div className="w-full h-80 cursor-pointer !mb-24 ">
-          <Swiper
+
+
+        <Slider {...settings}>
+
+        {products.map((product, index) => {
+              return (
+              //   <Fragment key={index}>
+             
+                  <div>
+                  <div key={index} className=" flex cursor-pointer">
+                    <img
+                    
+                      src="/SubtractCompany.png"
+                      alt="Card people"
+                      className=" object-contain relative justify-start flex items-center
+
+w-[100px] h-[170px] rounded-full "
+                    />
+                    <div className="my-9 -ml-24">
+                      <div
+                        onClick={() =>{ setIsOpen(true) ; setCompany(product) }}
+                        className=" bg-white   px-8 ml-4 rounded-3xl  relative h-[100px]  font-bold text-wrap   content-center  
+"
+                      >
+                        <div className="mt-1">
+                       
+                          <img
+                            src="/cmd.png"
+                            className="object-contain w-[65px]  z-10 rounded-lg"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  </div>
+                 
+              //   </Fragment>
+              );
+            })}
+
+
+
+        </Slider>
+
+
+
+          {/* <Swiper
 
 
 autoplay={true}
@@ -47,7 +155,7 @@ autoplay={true}
             slidesPerView="auto"
             breakpoints={{
               0: {
-                slidesPerView: 3,
+                slidesPerView: 2,
                 grid: {
                   rows: 3,
                 },
@@ -117,7 +225,7 @@ autoplay={true}
                 //   </Fragment>
                 );
               })}
-          </Swiper>
+          </Swiper> */}
 
           <CompanyModal isOpen={isOpen} setIsOpen={setIsOpen} company={company} />
         </div>

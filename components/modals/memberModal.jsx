@@ -64,7 +64,7 @@ export default function MemberModal({ isOpen, setIsOpen, member }) {
 <div>
     <p className=" font-thin text-[32px]">  <span className=" font-bold">{member?.first} </span>  {member?.last}</p>
 </div>
-                    <div className="w-[90%]">
+                    <div className="w-[90%] text-[18px]">
 
 
 

@@ -65,13 +65,13 @@ autoplay={true}
               }}
             breakpoints={{
               0: {
-                slidesPerView: 3,
+                slidesPerView: 2,
                 grid: {
                   rows: 3,
                 },
               },
               640: {
-                slidesPerView: 4,
+                slidesPerView: 3,
                 grid: {
                   rows: 2,
                 },
