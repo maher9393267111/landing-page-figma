@@ -49,8 +49,8 @@ export default function ContactModal({ isOpen, setIsOpen }) {
 
 
   return (
-    <Transition appear show={isOpen} as={Fragment}>
-    <Dialog as="div" className="relative  z-40" onClose={closeModal}>
+    <Transition  className='mt-12 !z-40' appear show={isOpen} as={Fragment}>
+    <Dialog as="div" className="relative   z-40" onClose={closeModal}>
       <Transition.Child
         as={Fragment}
         enter="ease-out duration-300"
@@ -92,7 +92,7 @@ export default function ContactModal({ isOpen, setIsOpen }) {
 
 <div className=" flex mt-3 items-center">
 <img className="w-[44px]  h-[30px] lg:w-[74px] lg:h-[50px]  " src="/cplln.png" alt="" />
-<span className="text-[40px] lg:text-[75px] text-[#080852]">Lock Potential</span>
+<span className="text-[30px] lg:text-[75px] text-[#080852] ">Lock Potential</span>
 </div>
 
 <div>
