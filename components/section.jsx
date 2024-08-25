@@ -2,15 +2,23 @@ import React from "react";
 
 export default function SectionOne() {
   return (
-    <div id="about" className="bg-[#f5f5f5]  relative  w-full">
+    <div id="about" className="bg-[#f5f5f5]  relative   w-full">
 
 
 {/* <div className="bg-[#f5f5f5] -z- opacity-9 -right-12  !w-full !h-full   bg-[url('/clip-path-group.png')] bg-contai">
 
 </div> */}
 
+<img 
+    src='/clip-path-group.png' 
+    alt='un background' 
+    className='absolute right-0  bg-cover -top-[96] transform -translate-y-1/2 w-full lg:w-1/2 h-full mt-96 max-w-full'
+  />
+
+<div className=" w-full h-full">
+
       
-      <div className=" bg-mask flex items-center relative    h-[500px]">
+      <div className=" bg-mask flex items-center relative    h-[600px]">
         <div className="w-[90%] mx-auto">
           <div className="flex flex-col">
             <div className="">
@@ -50,6 +58,10 @@ export default function SectionOne() {
 
         </div>
       </div>
+
+</div>
+
+
     </div>
   );
 }
