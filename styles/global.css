@@ -119,9 +119,9 @@ body {
     @apply  !overflow-x-hidden !font-raleway 
   }
 
-  .hero-overlay{
+  /* .hero-overlay{
     @apply !bg-gradient-to-tr !from-[rgb(75,100,137)] !to-[hsl(262,36%,42%)]   !top-0 absolute right-0 left-0 bottom-0 !z-10
-  }
+  } */
 
   .bg::before {
 

@@ -29,26 +29,29 @@ export default function Navbar() {
   const bg = "https://unlimed-com.vercel.app/img/wallpaper.jpeg";
 
   const items = [
-    { id: "1", name: "ABOUT", title: "", body: "Content for modal 1." },
+    { id: "1", name: "ABOUT", title: "", body: "Content for modal 1." ,section:'about' },
     {
       id: "2",
       name: "SERVICES",
       title: "Modal 2",
       body: "Content for modal 2.",
+      section:"services"
     },
     {
       id: "3",
       name: "MEMBERS",
       title: "Modal 3",
       body: "Content for modal 3.",
+      section:"members"
     },
     {
       id: "4",
       name: "CLIENTS",
       title: "Modal 4",
       body: "Content for modal 4.",
+      section:'clients'
     },
-    { id: "5", name: "CONTACT", title: "", body: "con" },
+    { id: "5", name: "CONTACT", title: "", body: "con" ,section:'contact' },
   ];
 
   const [isFixed, setIsFixed] = useState(false);
@@ -78,7 +81,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className=" h-[555px]  z-50  md:h-[800px]    ">
+    <div className=" h-[555px]  z-50  md:h-[800px]     !overflow-x-hidden  ">
       <div
         style={{
           backgroundImage:
@@ -89,14 +92,16 @@ export default function Navbar() {
       >
          
 
-         {/* <div class="    bg-blue-950 z-1 from-[rgb(75,100,137)] to-[hsl(262,36%,42%)] bg-opacity-50 w-full h-full"></div> */}
+      
          
 
         <ContactModal isOpen={isOpen} setIsOpen={setIsOpen} />
 
-        <div className="absolute -right-[300px] md:-right-12 top-32    ">
+         <div className="absolute hidden md:block !overflow-x-hidden -right-[300px] md:-right-12 top-32    ">
           <img src="/section1.png" className="w-[720px]" />
-        </div>
+        </div> 
+
+
         <div
           className={`fixed  left-0  overflow-hidden  false  z-[9999]   w-screen ${
             isFixed ? "bg-[#080852] top-2" : " top-4"
@@ -133,7 +138,7 @@ export default function Navbar() {
                   </svg>
                 </button>
               </li>
-              {/* <img className="cursor-pointer" src="/section1.png" /> */}
+              
             </menu>
             <ul className=" cursor-pointer z-50 hidden sm:flex gap-12 list-none items-center text-white">
               <li
@@ -197,7 +202,7 @@ export default function Navbar() {
           </div>
         </div>
 
-       <div className="bg-ble-950  bg-[#080852]  z-1 from-[rgb(75,100,137)] to-[hsl(262,36%,42%)] bg-opacity-50 w-full h-full">
+       <div className="bg-ble-950  bg-[#080852]   !over-flow-x-hidden  z-1  bg-opacity-50 w-full h-full">
 
        
         <div className="flex z-50 pt-12 md:pt-2 items-center w-[90%] h-full mx-auto">
@@ -255,10 +260,10 @@ export default function Navbar() {
 
             <Button
               onClick={() => setIsOpen(true)}
-              className="relative z-20  bg-white flex justify-center items-center p-4 w-[300px] text-[#080852] font-bold rounded-md mt-4  "
+              className="relative z-20 text-[13px]  lg:text-[22px] bg-white flex justify-center items-center p-4 w-[182px] lg:w-[300px] text-[#080852] font-bold rounded-md mt-4  "
             >
               <span>
-                <img className="w-[24px] h-[15px]" src="/btn2.png" alt="" />
+                <img className="lg:w-[24px] w-[16px] h-[10px] lg:h-[16px]" src="/btn2.png" alt="" />
               </span>
               Collbrate With Us
             </Button>
@@ -278,7 +283,7 @@ export default function Navbar() {
                 }`}
               >
                 <div className="flex items-center justify-between w-full">
-                  {/* ----------images div--------------- */}
+                
                   <div className="flex justify-between w-full   px-12">
                     <img
                       src="https://unlimed-com.vercel.app/img/logowhite.png"
@@ -286,7 +291,7 @@ export default function Navbar() {
                     />
                     <button onClick={handleToggleMenu}>
                       <img src="/close.png" className="w-4 h-4" alt="" />
-                      {/* <RiCloseLargeLine onClick={handleToggleMenu}  className=" text-black text-4xl flex hover:text-blue-600"/> */}
+                   
                     </button>
                   </div>
                 </div>
@@ -295,12 +300,20 @@ export default function Navbar() {
 
                 <div className=" p-7 ">
                   <div className="grid grid-cols-2 gap-40 !w-full mx-auto  md:grid-cols-5 text-black">
-                    {/* Left column (2words) */}
+                 
                     <div className="flex flex-col ml-10 sm:ml-20 items-start space-y-2 md:col-span-3  ">
                       {items.slice(1, 3).map((item, index) => (
                         <button
                           key={index}
-                          //   onClick={() => onOpenModal(item.id)}
+                        
+
+                          onClick={() => {
+                            const element = document.getElementById(item?.section);
+                            element?.scrollIntoView({
+                              behavior: "smooth",
+                            }) }}
+
+
                           className="hover:text-blue-600 text-[20px]"
                         >
                           {item.name}
@@ -308,12 +321,17 @@ export default function Navbar() {
                       ))}
                     </div>
 
-                    {/* Right column (2 words) */}
+         
                     <div className="flex flex-col -ml-10 sm:ml-0 items-start space-y-2 md:col-span-2">
                       {items.slice(3).map((item, index) => (
                         <button
                           key={index}
-                          //    onClick={() => onOpenModal(item.id)}
+                          onClick={() => {
+                            const element = document.getElementById(item?.section);
+                            element?.scrollIntoView({
+                              behavior: "smooth",
+                            }) }}
+                     
                           className="hover:text-blue-600 text-[20px]"
                         >
                           {item.name}
@@ -328,41 +346,7 @@ export default function Navbar() {
         )}
       </div>
 
-      {/* <>
-        <Button onClick={onOpen} className="relative z-50  font-sans mt-16 w-48">Collaborate With Us</Button>
   
-        <Modal    minWidth="fit-content"
-          height="fit-content" isOpen={isOpen}  onClose={onClose} >
-          <ModalOverlay  />
-          <ModalContent>
-        
-            <ModalCloseButton />
-            <ModalBody>
-
-<div className=" mt-12 container">
-
-<div>
-  <img className=" w-[60px] h-[40px]" src="/collogo.png" alt="" />
-</div>
-
-<div className=" flex mt-3">
-<img className="w-[76px]  h-[50px]" src="/cplln.png" alt="" />
-<span className="text-[75px]">Lock Potential</span>
-</div>
-
-</div>
-              
-            </ModalBody>
-  
-            <ModalFooter>
-              <Button colorScheme='green' mr={3} onClick={onClose}>
-                Close
-              </Button>
-            
-            </ModalFooter>
-          </ModalContent>
-        </Modal>
-      </> */}
     </div>
   );
 }
