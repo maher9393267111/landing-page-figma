@@ -24,7 +24,7 @@ export default function SectionOne() {
                   <span className="text-[15px]">Satisfied Customers</span>
                 </div>
               </div>
-              <div className="sm:w-1/4 text-[14px] items-center">
+              <div className="   sm:w-1/4 text-[14px] items-center">
                 At <span className="font-bold">Unlmtd</span>, our collective
                 success starts with you. We work with top independent agencies
                 and industy experts to unlock growth, innovation and strategic

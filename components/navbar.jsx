@@ -2,7 +2,7 @@ import React from "react";
 import {useState ,useEffect} from 'react'
 import { RiCloseLargeLine } from "react-icons/ri";
 import { Container, Divider, SimpleGrid } from "@chakra-ui/react";
-
+import { TypeAnimation } from 'react-type-animation';
 // side
 // https://unlimed-com.vercel.app/img/Group%206.png
 
@@ -18,6 +18,7 @@ setOpen(!open)
 
 
 }
+
 
 
 
@@ -138,8 +139,59 @@ setOpen(!open)
         </div>
         <div className="flex pt-12 md:pt-2 items-center w-[90%] h-full mx-auto">
           <div>
-            <img src="/titleDesk.png" />
-            <button className="bg-white p-4 w-[300px] text-[#080852] rounded-md mt-4">
+            {/* <img src="/titleDesk.png" /> */}
+
+            <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+            <p class="sm: hidde  text-[22px]  items-center font-normal  text-white  lg:text-[84px]">
+              We Are
+              <div class="flex  items-center mx-2">
+                <img
+                  class="lg:w-[180px] lg:h-[115px] w-[45px]  object-center h-[30px] md:ml-2 md:-mb-2"
+                  src="/btn2-big.png"
+                />
+
+
+
+
+                {/* <span class="text-white lg:text-[155px] text-[40px]  uppercase font-semibold">{text}</span>  */}
+
+                <span
+      className="text-white lg:text-[155px] text-[40px] uppercase font-semibold transition-transform duration-500 ease-in-out"
+   
+    >
+         <TypeAnimation
+      sequence={[
+        // Same substring at the start will only be typed out once, initially
+        'produc',
+        1000, // wait 1s before replacing "Mice" with "Hamsters"
+        'Wproduce',
+        1000,
+        'produce',
+        1000,
+        'produce',
+        1000
+      ]}
+      wrapper="span"
+      speed={50}
+      // style={{ fontSize: '2em', display: 'inline-block' }}
+      repeat={Infinity}
+    />
+    </span>
+
+
+                
+                  {/* <span className="mx-2 text-[40px] lg-text-[155px]">Potential</span> */}
+              </div>
+              {/* Potential */}
+            </p>
+            {/* <img class="sm:hidden w-[90%]" src="/assets/icon-ft.png" /> */}
+         
+          </div>
+
+
+
+            <button className="bg-white flex justify-center items-center p-4 w-[300px] text-[#080852] font-bold rounded-md mt-4">
+              <span><img className="w-[24px] h-[15px]" src="/btn2.png" alt="" /></span>
               Collbrate With Us
             </button>
           </div>

@@ -116,7 +116,7 @@ body {
      /* font-family: "bahiji !important";  */
   }
   body{
-    @apply  !overflow-x-hidden
+    @apply  !overflow-x-hidden !font-raleway
   }
 
   .hero-overlay{
@@ -142,7 +142,6 @@ body {
   bottom:0;
 
 }
-
 
 
 

@@ -20,7 +20,11 @@ module.exports = {
 
       fontFamily: {
         kufi: ["Noto Kufi Arabic", "sans-serif"],
-        ibm: ['IBM Plex Sans Arabic', 'sans-serif']
+        ibm: ['IBM Plex Sans Arabic', 'sans-serif'],
+        'sans': ['Raleway', 'ui-sans-serif', 'system-ui'],
+        'serif': ['Raleway', 'ui-serif', 'Georgia'],
+        'mono': ['ui-monospace', 'SFMono-Regular'],
+        'raleway': ['Raleway', 'sans-serif'],
       },
       colors: {
         primary: "#fde68a",
