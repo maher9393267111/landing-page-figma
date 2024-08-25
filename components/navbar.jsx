@@ -88,7 +88,7 @@ export default function Navbar() {
             "url(https://unlimed-com.vercel.app/img/wallpaper.jpeg)",
         }}
 
-        className="bg h-[466px]   md:h-[800px]     "
+        className="bg w-full h-full     "
       >
          
 

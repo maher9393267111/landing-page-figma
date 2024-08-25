@@ -11,13 +11,13 @@ export default function SectionOne() {
 <img 
     src='/clip-path-group.png' 
     alt='un background' 
-    className='absolute right-0 hidden lg:block  bg-cover top-[-200px] bg-[#f5f5f5]  md:bg-transparent  transform -translate-y-1/2 !w-full lg:!w-1/2 !h-full mt-96 max-w-full'
+    className='absolute right-0 hidden lg:block  bg-cover top-[-200px] bg-[#f5f5f5]  md:bg-transparent  transform -translate-y-1/2 !w-full lg:!w-1/2 !h-full top-96 max-w-full'
   />
 
 <div className=" w-full h-full">
 
       
-      <div className=" bg-mask flex items-center relative    h-[600px]">
+      <div className=" bg-mas flex items-center relative    h-[600px]">
         <div className="w-[90%] mx-auto">
           <div className="flex flex-col">
             <div className="">
