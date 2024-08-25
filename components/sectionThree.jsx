@@ -52,7 +52,7 @@ export default function SectionThree() {
           {/* ----------  COMPANIES SECTION ------ */}
 
           <div>
-            <p className="text-xs ml-1 font-semibold hidden sm:block">
+            <p className="text-xs ml-1 mb-3 font-semibold hidden sm:block">
               Meet the collective
             </p>
             <p className="ml-1 capitalize  block mt-4 font-bold text-[16px] sm:hidden">
@@ -199,7 +199,7 @@ export default function SectionThree() {
 
             {/* ---------PEOPLE SECTION-------- */}
 
-            <hr className="bg-[#82C809] h-[2px] hidden sm:block w-[90%]" />
+            <hr className="bg-[#82C809] mb-4 h-[2px] hidden sm:block w-[90%]" />
             <p className="ml-1 capitalize  block mt-4 font-bold text-[16px] sm:hidden">
               our people
             </p>

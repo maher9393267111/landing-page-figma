@@ -97,7 +97,7 @@ const settings = {
         {/* <h5 className="text-center py-5 text-xl font-semibold">
           پیشنهاد دیجی‌کالا
         </h5> */}
-        <div className="w-full h-80 cursor-pointer !mb-24 ">
+        <div className="w-full min-h-80 cursor-pointer !mb-24 ">
 
 
         <Slider {...settings}>
@@ -114,19 +114,21 @@ const settings = {
                       alt="Card people"
                       className=" object-contain relative justify-start flex items-center
 
-w-[100px] h-[170px] rounded-full "
+w-[100px] h-[170px] rounded-full    lg:w-[170px] lg:h-[250px]  "
                     />
-                    <div className="my-9 -ml-24">
+                    <div className="my-9 -ml-24 lg:-ml-[135px]">
                       <div
                         onClick={() =>{ setIsOpen(true) ; setCompany(product) }}
                         className=" bg-white   px-8 ml-4 rounded-3xl  relative h-[100px]  font-bold text-wrap   content-center  
+
+                        lg:w-[225px] lg:h-[170px] 
 "
                       >
                         <div className="mt-1">
                        
                           <img
                             src="/cmd.png"
-                            className="object-contain w-[65px]  z-10 rounded-lg"
+                            className="object-contain w-[65px] lg:w-[140px] lg:h-[55px]  z-10 rounded-lg"
                           />
                         </div>
                       </div>
