@@ -40,11 +40,11 @@ export default function Footer() {
         </div>
         <div class="pt-32 pb-14 sm:pb-8">
           <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
-            <p class="sm:flex hidde  text-[34px]  items-center font-normal  text-[#191919]  sm:text-[65px]">
+            <p class="sm:flex hidde  text-[34px]  items-center font-normal  text-[#191919]  lg:text-[65px]">
               Unlock Your
               <div class="flex items-center mx-2">
                 <img
-                  class="md:w-[72px] md:h-[46px] w-[24px] h-[24px] md:ml-2 md:-mb-2"
+                  class="lg:w-[72px] lg:h-[46px] w-[24px] h-[24px] md:ml-2 md:-mb-2"
                   src="/UN.png"
                 />
                 <span class="text-[#191919]  uppercase font-semibold">lmtd</span>   <span className="mx-2">Potential</span>
