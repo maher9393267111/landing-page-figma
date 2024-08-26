@@ -8,7 +8,7 @@ export default function MemberModal({ isOpen, setIsOpen, member }) {
 
   return (
     <Transition appear show={isOpen} as={Fragment}>
-      <Dialog as="div" className="relative z-10" onClose={closeModal}>
+      <Dialog as="div" className="relative z-10 overflow-scroll" onClose={closeModal}>
         <Transition.Child
           as={Fragment}
           enter="ease-out duration-300"
@@ -33,12 +33,12 @@ export default function MemberModal({ isOpen, setIsOpen, member }) {
               leaveTo="opacity-0 scale-95"
             >
               <Dialog.Panel className="w-full mt-24 !max-w-[80%] transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
-                <Dialog.Title
+                {/* <Dialog.Title
                   as="h3"
                   className="text-lg font-medium leading-6 text-gray-900"
                 >
                   {member?.first}
-                </Dialog.Title>
+                </Dialog.Title> */}
                 <div className="mt-2 ">
                   <div className=" flex cursor-pointer gap-12 md:flex-ro flex-col ">
                     <div className="relative md:w-[70%]">
@@ -51,7 +51,7 @@ export default function MemberModal({ isOpen, setIsOpen, member }) {
                       />
 
                       <img
-                        className="absolute w-[170px] h-[170px]  top-[1rem] left-4"
+                        className="absolute w-[170px]  rounded-full h-[170px]  top-[1rem] left-4"
                         src={member?.image}
                         alt=""
                       />
@@ -62,45 +62,32 @@ export default function MemberModal({ isOpen, setIsOpen, member }) {
 <div className="">
 
 <div>
-    <p className=" font-thin text-[32px]">  <span className=" font-bold">{member?.first} </span>  {member?.last}</p>
+    <p className=" font-thin text-[32px]"> 
+    <a className="w-full h-full text-thin my-2  !no-underline !text-black" href={member?.link} target="_blank">
+
+    <span className=" font-bold">{member?.first} </span>  {member?.last}
+
+    </a>
+       
+       
+       </p>
+
+
+<p className="text-[18px] opacity-[0.8]  mb-4 font-thin  text-[#191919]">{member?.title}</p>
+
+
+{/* {member?.link !== '' && */}
+{/* <p className=" text-[18px]   w-full h-auto bg-black"> */}
+  {/* <a className="w-full h-full text-thin my-2 !text-black" href={member?.link} target="_blank">{member?.link}</a> */}
+{/* </p> */}
+{/* } */}
+
 </div>
-                    <div className="w-[90%] text-[18px]">
+                    <div className="w-[90%] md:text-[18px] text-black">
 
 
 
-
-
-                      With a deep belief in the power of talent and the
-                      importance of fostering a supportive environment, Roger
-                      Kanakri founded Unlmtd.Known for his approachable
-                      leadership style, which emphasizes collaboration and
-                      innovation, Roger brings over 25 years of experience from
-                      leading multinational ad agencies such as Saatchi &
-                      Saatchi, BBDO, and Grey. In 2010, Roger transitioned from
-                      the corporate, finance-driven advertising world to
-                      co-found Livingroom Communication. Under his leadership,
-                      Livingroom Communication grew to become one of the leading
-                      independent agency in the region, known for its innovative
-                      approaches and commitment to nurturing talent. During his
-                      tenure at these renowned firms, he managed and led
-                      campaigns for top global brands like P&G, Warner Brothers
-                      World Abu Dhabi, Hershey’s, Lacnor, Oasis, Red Bull,
-                      Nestle, Pepsi, Saudi American Bank, Commercial Bank of
-                      Dubai, Mashreq Bank, JTI, MAF and many more.   Roger's
-                      vision for Unlmtd is to create a collective consultancy
-                      and management network that transforms the consultancy
-                      landscape. By uniting independent marketing communication
-                      companies with industry experts and strategists, Unlmtd
-                      delivers comprehensive services characterized by agility
-                      and personal engagement. Roger’s management skills and
-                      dedication to nurturing talent ensure that every project
-                      benefits from a wealth of experience and creative insight.
-                      A tech enthusiast with an entrepreneurial spirit, Roger
-                      values happiness, creativity, and authenticity over
-                      conventional norms, politics, and mediocrity. He balances
-                      his professional life with a deep commitment to his family
-                      and a passion for cooking, which he considers the ultimate
-                      expression of love.
+{member?.desc}
                     </div>
 
                     </div>

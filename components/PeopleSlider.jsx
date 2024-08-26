@@ -11,6 +11,7 @@ import useWindowDimensions from "./Functions/HandleWidth";
 
 import Slider from "react-slick";
 import { space } from "@chakra-ui/react";
+import { people } from "./Functions/data";
 
 export default function DigiSuggestion({}) {
   const product = true;
@@ -18,21 +19,21 @@ export default function DigiSuggestion({}) {
   const [member, setMember] = useState(null);
   const { height, width } = useWindowDimensions();
 
-  const products = [
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "mohanad", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-  ];
+  // const products = [
+  //   { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
+  //   { id: 1, first: "mohanad", last: "ghanem", image: "/user.png" },
+  //   { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
+  //   { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
+  //   { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
+  //   { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
+  //   { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
+  //   { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
+  //   { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
+  //   { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
+  //   { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
+  //   { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
+  //   { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
+  // ];
 
   const settings = {
     className: "center",
@@ -97,7 +98,7 @@ export default function DigiSuggestion({}) {
 
       <div className="w-full pb-4  min-h-80 cursor-pointer mb-5 overflow-hidden">
         <Slider {...settings}>
-          {products.map((product, index) => {
+          {people.map((product, index) => {
             return (
               <Fragment key={index}>
                 <div className="mb-2">
@@ -116,7 +117,7 @@ export default function DigiSuggestion({}) {
                           setMember(product);
                         }}
                         src={product?.image}
-                        className=" object-cover w-[60px] -mt-2 absolute rounded-full  z-50 
+                        className=" object-cover object-center w-[60px] h-[60px] -mt-2 absolute rounded-full  z-50 
                                  lg:w-[150px] lg:h-[150px] lg:left-3 lg:-top-3
                
     "

@@ -55,6 +55,7 @@ export default function CommpanyModal({ isOpen, setIsOpen, company }) {
                         </p>
                       </div>
                       <div className="w-[90%] text-[18px]">
+                        
                         With a deep belief in the power of talent and the
                         importance of fostering a supportive environment, Roger
                         Kanakri founded Unlmtd.Known for his approachable
