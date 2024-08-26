@@ -63,12 +63,21 @@ export default function MemberModal({ isOpen, setIsOpen, member }) {
 
 <div>
     <p className=" font-thin text-[32px]"> 
+
+      {member?.link !== '' ?
     <a className="w-full h-full text-thin my-2  !no-underline !text-black" href={member?.link} target="_blank">
 
     <span className=" font-bold">{member?.first} </span>  {member?.last}
 
     </a>
-       
+
+:
+    <p className="w-full h-full text-thin my-2  !no-underline !text-black" >
+
+<span className=" font-bold">{member?.first} </span>  {member?.last}
+
+</p>
+}      
        
        </p>
 
