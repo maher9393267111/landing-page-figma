@@ -50,7 +50,7 @@ object-contain w-[65px] lg:w-[140px] lg:h-[55px]  z-10 rounded-lg "
 
 {company?.link !== '' &&
 
-<div className=" text-[18px] font-thin  ">
+<div className=" text-[12px] md:text-[18px] font-thin  ">
   <a className="!text-black flex gap-2 items-center  !no-underline" href={company?.link} target="_blank">
 
 <span> <img src="/link.png" alt="" /> </span>
@@ -64,12 +64,12 @@ object-contain w-[65px] lg:w-[140px] lg:h-[55px]  z-10 rounded-lg "
 
                     <div className="">
                       <div>
-                        <p className=" font-thin mb-4 text-[32px]">
+                        <p className=" font-thin mb-4 text-[20px] md:text-[32px]">
                           {" "}
                           <span className=" font-bold">{company?.title} </span>
                         </p>
                       </div>
-                      <div className="w-[90%] text-[18px]">
+                      <div className="w-[90%] text-[12px] md:text-[18px]">
                         
                         With a deep belief in the power of talent and the
                         importance of fostering a supportive environment, Roger
