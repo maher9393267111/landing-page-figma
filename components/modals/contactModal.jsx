@@ -49,7 +49,7 @@ export default function ContactModal({ isOpen, setIsOpen }) {
 
 
   return (
-    <Transition  className='mt-12 !z-40' appear show={isOpen} as={Fragment}>
+    <Transition  className='!mt-24 !z-40' appear show={isOpen} as={Fragment}>
     <Dialog as="div" className="relative   z-40" onClose={closeModal}>
       <Transition.Child
         as={Fragment}
