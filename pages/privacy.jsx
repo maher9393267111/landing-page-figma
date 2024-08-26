@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Privacy() {
   return (
-    <div>
+    <div className=' px-12'>
 
 <div className="WordSection1">
 

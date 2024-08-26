@@ -1,8 +1,9 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div id="contact">
+    <div id="contact !z-50">
       <div class="w-[90%] mx-auto !mt-[150px] ">
         <div class=" w-full relative pb-4 bg-gradient-to-br from-[#080852 to-[#1956DC border-4 border-green-500  bg-[#080852] bg-center rounded-2xl">
 
@@ -70,8 +71,18 @@ export default function Footer() {
                 <div>LinkedIn</div>
                 <div>Instagram</div>
               </div>
+
               <span class="text-[18px] font-thin sm:text-right">
-                Privacy Policy | Cookie Disclaimer
+                <Link className=" !no-underline" href={'/privacy'}>
+
+ Cookie Disclaimer
+                </Link>
+               <span className="px-1">|</span>
+                <Link className="!no-underline" href={'/cookies'}>
+
+
+  Cookie Disclaimer
+</Link>
               </span>
             </div>
           </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Cookies() {
   return (
-    <div>
+    <div className='px-12'> 
 
     <div>
       <p>&nbsp;</p>

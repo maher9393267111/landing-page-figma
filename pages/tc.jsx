@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Tc() {
   return (
-    <div>
+    <div className='px-12'>
 
     <div>
       <p>&nbsp;</p>
@@ -150,6 +150,61 @@ export default function Tc() {
 
       <p className="MsoNormal" style={{ marginTop: '12.0pt', marginRight: '0in', marginBottom: '12.0pt', marginLeft: '0in' }}>
         <b><span style={{ fontFamily: '"Calibri",sans-serif', color: '#92D050' }}>10. Entire Agreement</span></b>
+      </p>
+    </div>
+
+
+
+
+    <div>
+      <p className="MsoNormal" style={{ marginTop: '12.0pt', marginRight: '0in', marginBottom: '12.0pt', marginLeft: '0in' }}>
+        <span style={{ fontFamily: '"Calibri",sans-serif' }}>These terms constitute the entire agreement between </span>
+        <span style={{ fontFamily: '"Calibri",sans-serif' }}>Unlmtd</span>
+        <span style={{ fontFamily: '"Calibri",sans-serif' }}> and you in relation to your use of this website and supersede all prior agreements and understandings.</span>
+      </p>
+
+      <p className="MsoNormal" style={{ marginTop: '12.0pt', marginRight: '0in', marginBottom: '12.0pt', marginLeft: '0in' }}>
+        <b><span style={{ fontFamily: '"Calibri",sans-serif', color: '#92D050' }}>11. Governing Law &amp; Jurisdiction</span></b>
+      </p>
+
+      <p className="MsoNormal" style={{ marginTop: '12.0pt', marginRight: '0in', marginBottom: '12.0pt', marginLeft: '0in' }}>
+        <span style={{ fontFamily: '"Calibri",sans-serif' }}>These terms will be governed by and interpreted in accordance with the laws of the United Arab Emirates, and you submit to the non-exclusive jurisdiction of the state and federal courts located in the UAE for the resolution of any disputes.</span>
+      </p>
+
+      <div className="MsoNormal" style={{ textAlign: 'center' }}>
+        <span style={{ fontFamily: '"Calibri",sans-serif' }}>
+          <hr size={0} width="100%" align="center" />
+        </span>
+      </div>
+
+      <p className="MsoNormal" style={{ marginTop: '12.0pt', marginRight: '0in', marginBottom: '12.0pt', marginLeft: '0in' }}>
+        <b><span style={{ fontFamily: '"Calibri",sans-serif', color: '#92D050' }}>Contact Us</span></b>
+      </p>
+
+      <p className="MsoNormal" style={{ marginTop: '12.0pt', marginRight: '0in', marginBottom: '12.0pt', marginLeft: '0in' }}>
+        <span style={{ fontFamily: '"Calibri",sans-serif' }}>If you have any questions about our Terms and Conditions, please contact us at:</span>
+      </p>
+
+      <p className="MsoNormal" style={{ marginTop: '12.0pt', marginRight: '0in', marginBottom: '0in', marginLeft: '.5in', marginBottom: '.0001pt', textIndent: '-.25in', lineHeight: '115%' }}>
+        <span style={{ fontFamily: '"Calibri",sans-serif' }}>
+          ●<span style={{ font: '7.0pt "Times New Roman"' }}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        </span>
+        <span style={{ fontFamily: '"Calibri",sans-serif' }}>Email: hello@weareunlmtd.com</span>
+      </p>
+
+      <p className="MsoNormal" style={{ marginTop: '0in', marginRight: '0in', marginBottom: '12.0pt', marginLeft: '.5in', textIndent: '-.25in', lineHeight: '115%' }}>
+        <span style={{ fontFamily: '"Calibri",sans-serif' }}>
+          ●<span style={{ font: '7.0pt "Times New Roman"' }}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        </span>
+        <span style={{ fontFamily: '"Calibri",sans-serif' }}>Phone: +971 50 645 3290</span>
+      </p>
+
+      <p className="MsoNormal">
+        <span style={{ fontFamily: '"Calibri",sans-serif' }}>&nbsp;</span>
+      </p>
+
+      <p className="MsoNormal" style={{ marginTop: '12.0pt', marginRight: '0in', marginBottom: '12.0pt', marginLeft: '2.0in', textIndent: '.5in' }}>
+        <span style={{ fontFamily: '"Calibri",sans-serif' }}>&nbsp;</span>
       </p>
     </div>
 
