@@ -352,7 +352,7 @@ export default function Navbar() {
                     alt=""
                   />
                 </span>
-                Collbrate With Us
+                lock Potential
               </Button>
             </div>
           </div>
