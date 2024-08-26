@@ -255,7 +255,7 @@ export default function Navbar() {
                   We Are
                   <div class="flex  !items-center mx-2">
                     <img
-                      class="lg:w-[170px] lg:h-[105px] w-[34px]  object-center h-[22px] md:ml-2 md:-mb-2"
+                      class="lg:w-[170px] lg:h-[105px] w-[34px] sm:w-[40px] sm:h-[26px]  object-center h-[22px] md:ml-2 md:-mb-2"
                       src="/btn2-big.png"
                     />
 
@@ -263,13 +263,13 @@ export default function Navbar() {
 
                     <motion.span
                     
-                    initial={{ y: 50, opacity: 0 }}
+                    initial={{ y: 30, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 1 }}
                   
                     key={text[currentIndex]}
                     
-                    className={`content-list !overflow-hidden text-white animation1 lg:text-[133px] text-[20px] xs:text-[22px] sm:text-[35px] uppercase font-semibold transition-transform duration-500 ease-in-out  
+                    className={`content-list !overflow-hidden text-white animation1 lg:text-[133px] text-[24px] xs:text-[22px] sm:text-[35px] uppercase font-semibold transition-transform duration-500 ease-in-out  
                   `}
                     
                     >
@@ -354,7 +354,7 @@ export default function Navbar() {
 
               <Button
                 onClick={() => setIsOpen(true)}
-                className="relative z-20 text-[13px]  lg:text-[22px] bg-white flex justify-center items-center p-4 w-[182px] lg:w-[300px] text-[#080852] font-bold rounded-md mt-4  "
+                className="relative z-20 text-[13px]  lg:text-[22px] bg-white flex justify-center items-center p-4 w-[182px] lg:w-[300px] text-[#080852] font-bold rounded-md mt-[25px] lg:mt-4    "
               >
                 <span>
                   <img

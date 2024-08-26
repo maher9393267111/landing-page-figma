@@ -53,12 +53,12 @@ export default function SectionThree() {
           {/* ----------  COMPANIES SECTION ------ */}
 
           <div>
-            <p className="text-xs ml-1 mb-3 font-semibold hidden sm:block">
+            <p className="text-xs ml-1 mb-3 font-semibold hidden ">
               Meet the collective
             </p>
-            <p className="ml-1 capitalize  block mt-4 font-bold text-[16px] sm:hidden">
+            {/* <p className="ml-1 capitalize  block mt-4 font-bold text-[16px] sm:hidden">
               our companies
-            </p>
+            </p> */}
 
             <CompanySlider/>
 
