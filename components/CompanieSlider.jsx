@@ -8,27 +8,13 @@ import Link from "next/link";
 import { Fragment, useState } from "react";
 import CompanyModal from "./modals/companyModal";
 import Slider from "react-slick";
+import { companyData } from "./Functions/data";
 export default function DigiSuggestion({}) {
   const product = true;
 
   const [isOpen, setIsOpen] = useState(false);
   const [company, setCompany] = useState(null);
 
-  const products = [
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-  ];
 
 
 
@@ -95,9 +81,10 @@ export default function DigiSuggestion({}) {
         {/* <h5 className="text-center py-5 text-xl font-semibold">
           پیشنهاد دیجی‌کالا
         </h5> */}
+       
         <div className="w-full min-h-80 cursor-pointer !mb-24 ">
           <Slider {...settings}>
-            {products.map((product, index) => {
+            {companyData?.map((product, index) => {
               return (
                 //   <Fragment key={index}>
 
@@ -124,7 +111,7 @@ w-[100px] h-[170px] rounded-full    lg:w-[170px] lg:h-[250px]  "
                       >
                         <div className="mt-1">
                           <img
-                            src="/cmd.png"
+                            src={product?.image}
                             className="object-contain w-[65px] lg:w-[140px] lg:h-[55px]  z-10 rounded-lg"
                           />
                         </div>

@@ -94,3 +94,157 @@ export const people = [
 
  
 ];
+
+
+
+
+export const companyData = [
+
+{
+
+  id:1,
+  title:"ADCREATORS MENA",
+  desc:'Adcreators are the glue that binds a brand, its people and its customers. We area full-service creative digital marketing agency that has made it its mission topioneer brands, write stories, catalyze change and pave success.',
+  image:'/brands/adcreators.png',
+  link:'https://www.adcreatorsmena.com'
+
+
+
+},
+
+
+{
+
+  id:2,
+  title:'Antworks',
+  desc:'Founded by Paul Boulos in 2018, Antworks Consulting is a business coaching and business transformation consulting firm based out of Dubai serving the region. Through its global partnerships it focuses on a unique methodology of delivering its services.',
+  image:'/brands/Antworks Consulting - Final Logo.jpg',
+  link:'www.antworksconsultants.com',
+  linkden:'https://www.linkedin.com/in/paulboulos',
+
+
+
+},
+
+{
+
+  id:3,
+  title:'Ashia',
+  desc:'Ashia, founded in 1995, is your trusted partner in crafting unique and customized gifts that leave a lasting impression. With expertise in embroidery and customization, and a presence in UAE, Lebanon, and Egypt, we bring your concepts to life with tailored solutions for events and business needs. From multinationals to advertising agencies, our bespoke services and live event embroidery ensure your brand stands out.',
+  image:'/brands/Ashia logo.png',
+  link:'www.ashia.ae'
+
+
+
+},
+
+{
+
+  id:4,
+  title:'Black Rhino',
+  desc:'',
+  image:'/brands/BLACKRHINO solo.jpg',
+  link:''
+
+
+
+},
+
+{
+
+  id:5,
+  title:'Command Plus',
+  desc:'We are a boutique, creative-led agency based in Dubai and Cairo. We are a group of independent, fresh, creative problem-solvers. We are not your typical creative agency; instead, we are a compact team — exactly the kind of agency you might be looking for.Our capabilities are:- Branding & Design.- Content Production. (Photo and Video)- Marketing Communication (Online and Offline).',
+  image:'/brands/cmd+ Black.png',
+  link:'https://www.commandplus.ae'
+
+
+
+},
+
+{
+
+  id:6,
+  title:'Daf',
+  image:'/brands/Logo_Negro.png',
+  desc:'"At DAF, we transform visions into reality. Founded by the world’s second-best Executive Creative Director, we bring over 30 years of unparalleled experience in brand building, experience design, and advertising. Our team has spearheaded iconic campaigns for global giants like Burger King, Heinz, Mercedes-Benz, Apple, Google, Renault and McDonald’s. With 40+ Grand Prixes and countless awards, our creative consultancy doesn’t just meet expectations; we exceed them. From exceptional branding projects to innovative campaigns addressing strategic needs, DAF is your partner in turning creativity into tangible success."',
+  link:'www.imdaf.com'
+
+
+
+},
+
+{
+
+  id:7,
+  title:'Endscape Mena',
+  desc:'Endspace leverages today’s digital landscape and advanced technology toimprove business performance. Through strategic research and innovativecloud-based solutions, we drive revenue growth and expand business horizons.We collaborate closely with clients and partners to craft tailored solutionsthat address unique needs and industry challenges. Our agile approach encompasses everything from exploring emerging technologies to delivering scalable solutions.',
+  image:'/brands/endspace.png',
+  link:'https://endspacemena.com'
+
+
+
+},
+
+{
+
+  id:8,
+  title:'Jumee',
+  desc:'Strategic partners, generator of insights and positive business outcome. Storytellers, initiators of thoughts and conversations about your brand. Perception shifters, changing your mind by speaking to your heart. We are a creative, strategic, result driven communication and media powerhouse and we are on a relentless journey of business solutions through creativity.',
+  image:'/brands/JURNEE  logo BLUE.png',
+  link:'www.jurneeco.com'
+
+
+
+},
+
+{
+
+  id:9,
+  title:'Lava Brands',
+  desc:"Being an internationally recognized specialized branding and digital communications agency in Dubai and New Jersey compounded with over 20 years of extraordinary experience and knowledge, we believe that each brand is distinguished and we at LAVA BRANDS guarantee distinguished services as a result. In our world-renowned Brand Lab, we make sure that our tailor-made engagements and activations go above and beyond to meet the needs and cope with the upcoming challenges of the brand and market they are in.Our creative, branding and digital communication teams provides integrated marketing communication services that are cost effective and efficient. We make sure to partner with our clients to directly impact the brand's bottom line with measurable results, we are equipped with just the right expertise to set our clients apart from the competition with no looking back." ,
+  image:'/brands/lava Logo.svg',
+  link:'www.lava-brands.com'
+
+
+
+},
+
+{
+  id:10,
+  title:'Livingroomksa',
+  desc:'Your 360° Creative Advertising Partner in Jeddah Welcome to Livingroomksa, the pulse of creativity and innovation in Jeddah’s vibrant advertising landscape. Our mission is to transform visions into compelling narratives that captivate, inspire, and engage audiences across all platforms.As a premier advertising agency, we specialize in delivering comprehensive 360-degree in-house creative services that encompass everything from branding and event management to social media content creation and ad development. Our team is a passionate collective of talented professionals dedicated to crafting innovative and impactful campaigns. We pride ourselves on our ability to bring ideas to life and achieve exceptional results for our clients.At Livingroomksa, we are excited about the opportunity to partner with esteemed clients who share our vision for innovative and impactful advertising. Our commitment to excellence and passion for creativity drive us to deliver unparalleled results.',
+  image:'/brands/LIVINGROOM logo.png',
+  link:''
+}
+
+
+,
+
+{
+  id:11,
+  title:'Bold',
+  desc:'Being Bold is the only option when everyone has the same tools, trends, and tactics.Welcome to the age of unlimited choices and limited attention.The Bold Option is a Creative Strategy & Tech Studio.We specialize in being generalists.Our bold approach focuses on understanding the intrinsic relationship between people, products and the evolving culture of technology.We work with diligence towards measurable business outcomes that are understandable, repeatable and scalable.',
+  image:'/brands/the bold option.png',
+  link:'umer@theboldoption.com'
+}
+,
+
+
+{
+  id:12,
+  title:'Vidmatic',
+  desc:' Vidmatic, a digital advertising agency founded in 2016, serves the GCC markets with expertise in diverse ad formats and geo-location campaigns. Prioritizing brand safety and anti-fraud measures, they handle programmatic, direct, and performance campaigns using various buying models. Trusted by sectors like FMCG, travel, real estate, telecom, banking and automotive, Vidmatic has executed over 2000 campaigns across GCC and international.',
+  image:'/brands/vidmatic.svg',
+  link:'https://vidmatic.ae'
+}
+,
+
+
+
+
+
+
+
+
+]

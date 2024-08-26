@@ -51,7 +51,7 @@ export default function MemberModal({ isOpen, setIsOpen, member }) {
                       />
 
                       <img
-                        className="absolute w-[170px]  rounded-full h-[170px]  top-[1rem] left-4"
+                        className="absolute w-[170px] object-cover  rounded-full h-[170px]  top-[1rem] left-4"
                         src={member?.image}
                         alt=""
                       />

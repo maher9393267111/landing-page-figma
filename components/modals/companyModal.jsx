@@ -33,25 +33,40 @@ export default function CommpanyModal({ isOpen, setIsOpen, company }) {
               leaveTo="opacity-0 scale-95"
             >
               <Dialog.Panel className="w-full mt-24 !max-w-[80%] transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
-                <div className="mt-2 ">
+                <div className="mt-2 md:px-4 md:py-4 ">
                   <div className=" flex cursor-pointer gap-12 md:flex-ro flex-col ">
-                    <div className="relative md:w-[70%]">
+                    <div className="relative ">
                       <img
                         src={company?.image}
                         alt="Card people"
                         className=" 
  
-  rounded-full w-[170px] h-[200px] "
+object-contain w-[65px] lg:w-[140px] lg:h-[55px]  z-10 rounded-lg "
                       />
                     </div>
+
+
+{/* ----link-- */}
+
+{company?.link !== '' &&
+
+<div className=" text-[18px] font-thin  ">
+  <a className="!text-black flex gap-2 items-center  !no-underline" href={company?.link} target="_blank">
+
+<span> <img src="/link.png" alt="" /> </span>
+  <p>{company?.link}</p>
+  </a>
+</div>
+}
+
 
                     {/* ----Desc-- */}
 
                     <div className="">
                       <div>
-                        <p className=" font-thin text-[32px]">
+                        <p className=" font-thin mb-4 text-[32px]">
                           {" "}
-                          <span className=" font-bold">{company?.first} </span>
+                          <span className=" font-bold">{company?.title} </span>
                         </p>
                       </div>
                       <div className="w-[90%] text-[18px]">

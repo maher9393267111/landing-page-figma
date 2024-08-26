@@ -19,21 +19,6 @@ export default function DigiSuggestion({}) {
   const [member, setMember] = useState(null);
   const { height, width } = useWindowDimensions();
 
-  // const products = [
-  //   { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-  //   { id: 1, first: "mohanad", last: "ghanem", image: "/user.png" },
-  //   { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-  //   { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-  //   { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-  //   { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-  //   { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-  //   { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-  //   { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-  //   { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-  //   { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-  //   { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-  //   { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-  // ];
 
   const settings = {
     className: "center",
