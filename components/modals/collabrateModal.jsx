@@ -2,7 +2,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import { Fragment ,useState } from "react";
 import axios from 'axios'
 import { Button } from "@chakra-ui/react";
-export default function ContactModal({ isOpen, setIsOpen }) {
+export default function CollabrateModal({ isOpen, setIsOpen }) {
   function closeModal() {
     setIsOpen(false);
   }
@@ -79,7 +79,7 @@ export default function ContactModal({ isOpen, setIsOpen }) {
                 as="h3"
                 className="text-lg font-medium leading-6 text-gray-900"
               >
-                Contact Form
+                Collabrate Form
               </Dialog.Title>
               <div className=" mt-12 container">
 

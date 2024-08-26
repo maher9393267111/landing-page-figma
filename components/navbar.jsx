@@ -4,6 +4,7 @@ import { RiCloseLargeLine } from "react-icons/ri";
 import { Container, Divider, SimpleGrid } from "@chakra-ui/react";
 import { TypeAnimation } from "react-type-animation";
 import ContactModal from "./modals/contactModal";
+import CollabrateModal from "./modals/collabrateModal";
 import {
   Modal,
   ModalOverlay,
@@ -21,37 +22,44 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   const [isOpen, setIsOpen] = useState(false);
+  const [isOpenContact ,setIsOpenContact]  = useState(false)
 
   const handleToggleMenu = () => {
     setOpen(!open);
   };
 
-  const bg = "https://unlimed-com.vercel.app/img/wallpaper.jpeg";
+ 
 
   const items = [
-    { id: "1", name: "ABOUT", title: "", body: "Content for modal 1." ,section:'about' },
+    {
+      id: "1",
+      name: "ABOUT",
+      title: "",
+      body: "Content for modal 1.",
+      section: "about",
+    },
     {
       id: "2",
       name: "SERVICES",
       title: "Modal 2",
       body: "Content for modal 2.",
-      section:"services"
+      section: "services",
     },
     {
       id: "3",
       name: "MEMBERS",
       title: "Modal 3",
       body: "Content for modal 3.",
-      section:"members"
+      section: "members",
     },
     {
       id: "4",
       name: "CLIENTS",
       title: "Modal 4",
       body: "Content for modal 4.",
-      section:'clients'
+      section: "clients",
     },
-    { id: "5", name: "CONTACT", title: "", body: "con" ,section:'contact' },
+    { id: "5", name: "CONTACT", title: "", body: "con", section: "contact" },
   ];
 
   const [isFixed, setIsFixed] = useState(false);
@@ -87,31 +95,20 @@ export default function Navbar() {
           backgroundImage:
             "url(https://unlimed-com.vercel.app/img/wallpaper.jpeg)",
         }}
-
         className="bg w-full h-full     "
       >
-         
+        <ContactModal isOpen={isOpenContact} setIsOpen={setIsOpenContact} />
+        <CollabrateModal isOpen={isOpen} setIsOpen={setIsOpen} />
+        
 
-      
-         
+        <div className=" !overflow-x-hidden">
+          <div className="absolute hidden lg:block !overflow-x-hidden -right-[200px]  top-32    ">
+            <img src="/section1.png" className="w-[720px]" />
+          </div>
 
-        <ContactModal isOpen={isOpen} setIsOpen={setIsOpen} />
-
-
-      
-
-<div className=" !overflow-x-hidden">
-
-
-<div className="absolute hidden lg:block !overflow-x-hidden -right-[200px]  top-32    ">
-          <img src="/section1.png" className="w-[720px]" />
-        </div> 
-
-
-        <div className="absolute block lg:hidden  !overflow-x-hidden -right-[6px] top-32    ">
-          <img src="/circlenavMobile.png" className="w-[300px]" />
-        </div> 
-
+          <div className="absolute block lg:hidden  !overflow-x-hidden -right-[6px] top-32    ">
+            <img src="/circlenavMobile.png" className="w-[300px]" />
+          </div>
         </div>
 
         <div
@@ -150,7 +147,6 @@ export default function Navbar() {
                   </svg>
                 </button>
               </li>
-              
             </menu>
             <ul className=" cursor-pointer z-50 hidden sm:flex gap-12 list-none items-center text-white">
               <li
@@ -196,10 +192,12 @@ export default function Navbar() {
               </li>
               <li
                 onClick={() => {
-                  const element = document.getElementById("contact");
-                  element?.scrollIntoView({
-                    behavior: "smooth",
-                  });
+                  // const element = document.getElementById("contact");
+                  // element?.scrollIntoView({
+                  //   behavior: "smooth",
+                  // });
+
+                  setIsOpenContact(true)
                 }}
               >
                 Contact
@@ -214,52 +212,50 @@ export default function Navbar() {
           </div>
         </div>
 
-       <div className="bg-ble-950  bg-[#080852]   !over-flow-x-hidden  z-1  bg-opacity-50 w-full h-full">
+        <div className="bg-ble-950  bg-[#080852]   !over-flow-x-hidden  z-1  bg-opacity-50 w-full h-full">
+          <div className="flex z-50 pt-12 md:pt-2 items-center w-[90%] h-full mx-auto">
+            <div>
+              {/* <img src="/titleDesk.png" /> */}
 
-       
-        <div className="flex z-50 pt-12 md:pt-2 items-center w-[90%] h-full mx-auto">
-          <div>
-            {/* <img src="/titleDesk.png" /> */}
-
-            <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
-              <p class="sm: hidde cursor-pointer  text-[22px]  items-center font-normal  text-white  lg:text-[84px]">
-                We Are
-                <div class="flex  items-center mx-2">
-                  <img
-                    class="lg:w-[180px] lg:h-[115px] w-[45px]  object-center h-[30px] md:ml-2 md:-mb-2"
-                    src="/btn2-big.png"
-                  />
-
-                  {/* <span class="text-white lg:text-[155px] text-[40px]  uppercase font-semibold">{text}</span>  */}
-
-                  <span className="text-white lg:text-[155px] text-[40px] uppercase font-semibold transition-transform duration-500 ease-in-out">
-                    <TypeAnimation
-                      sequence={[
-                        // Same substring at the start will only be typed out once, initially
-                        "produc",
-                        1000, // wait 1s before replacing "Mice" with "Hamsters"
-                        "Wproduce",
-                        1000,
-                        "produce",
-                        1000,
-                        "produce",
-                        1000,
-                      ]}
-                      wrapper="span"
-                      speed={50}
-                      // style={{ fontSize: '2em', display: 'inline-block' }}
-                      repeat={Infinity}
+              <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+                <p class="sm: hidde cursor-pointer  text-[22px]  items-center font-normal  text-white  lg:text-[84px]">
+                  We Are
+                  <div class="flex  items-center mx-2">
+                    <img
+                      class="lg:w-[180px] lg:h-[115px] w-[45px]  object-center h-[30px] md:ml-2 md:-mb-2"
+                      src="/btn2-big.png"
                     />
-                  </span>
 
-                  {/* <span className="mx-2 text-[40px] lg-text-[155px]">Potential</span> */}
-                </div>
-                {/* Potential */}
-              </p>
-              {/* <img class="sm:hidden w-[90%]" src="/assets/icon-ft.png" /> */}
-            </div>
+                    {/* <span class="text-white lg:text-[155px] text-[40px]  uppercase font-semibold">{text}</span>  */}
 
-            {/* <Button
+                    <span className="text-white lg:text-[155px] text-[40px] uppercase font-semibold transition-transform duration-500 ease-in-out">
+                      <TypeAnimation
+                        sequence={[
+                          // Same substring at the start will only be typed out once, initially
+                          "produc",
+                          1000, // wait 1s before replacing "Mice" with "Hamsters"
+                          "Wproduce",
+                          1000,
+                          "produce",
+                          1000,
+                          "produce",
+                          1000,
+                        ]}
+                        wrapper="span"
+                        speed={50}
+                        // style={{ fontSize: '2em', display: 'inline-block' }}
+                        repeat={Infinity}
+                      />
+                    </span>
+
+                    {/* <span className="mx-2 text-[40px] lg-text-[155px]">Potential</span> */}
+                  </div>
+                  {/* Potential */}
+                </p>
+                {/* <img class="sm:hidden w-[90%]" src="/assets/icon-ft.png" /> */}
+              </div>
+
+              {/* <Button
          
             onClick={onOpen}
             // onClick={openModal}
@@ -270,21 +266,22 @@ export default function Navbar() {
               Collbrate With Us
             </Button> */}
 
-            <Button
-              onClick={() => setIsOpen(true)}
-              className="relative z-20 text-[13px]  lg:text-[22px] bg-white flex justify-center items-center p-4 w-[182px] lg:w-[300px] text-[#080852] font-bold rounded-md mt-4  "
-            >
-              <span>
-                <img className="lg:w-[24px] w-[16px] h-[10px] lg:h-[16px]" src="/btn2.png" alt="" />
-              </span>
-              Collbrate With Us
-            </Button>
+              <Button
+                onClick={() => setIsOpen(true)}
+                className="relative z-20 text-[13px]  lg:text-[22px] bg-white flex justify-center items-center p-4 w-[182px] lg:w-[300px] text-[#080852] font-bold rounded-md mt-4  "
+              >
+                <span>
+                  <img
+                    className="lg:w-[24px] w-[16px] h-[10px] lg:h-[16px]"
+                    src="/btn2.png"
+                    alt=""
+                  />
+                </span>
+                Collbrate With Us
+              </Button>
+            </div>
           </div>
         </div>
-
-</div>
-
-
 
         {open && (
           <div className=" !z-50 fixed top-0 right-0 left-0 bottom-0 ">
@@ -295,7 +292,6 @@ export default function Navbar() {
                 }`}
               >
                 <div className="flex items-center justify-between w-full">
-                
                   <div className="flex justify-between w-full   px-12">
                     <img
                       src="https://unlimed-com.vercel.app/img/logowhite.png"
@@ -303,7 +299,6 @@ export default function Navbar() {
                     />
                     <button onClick={handleToggleMenu}>
                       <img src="/close.png" className="w-4 h-4" alt="" />
-                   
                     </button>
                   </div>
                 </div>
@@ -312,20 +307,18 @@ export default function Navbar() {
 
                 <div className=" p-7 ">
                   <div className="grid grid-cols-2 gap-40 !w-full mx-auto  md:grid-cols-5 text-black">
-                 
                     <div className="flex flex-col ml-10 sm:ml-20 items-start space-y-2 md:col-span-3  ">
                       {items.slice(0, 3).map((item, index) => (
                         <button
                           key={index}
-                        
-
                           onClick={() => {
-                            const element = document.getElementById(item?.section);
+                            const element = document.getElementById(
+                              item?.section
+                            );
                             element?.scrollIntoView({
                               behavior: "smooth",
-                            }) }}
-
-
+                            });
+                          }}
                           className="hover:text-blue-600 text-[20px]"
                         >
                           {item.name}
@@ -333,17 +326,33 @@ export default function Navbar() {
                       ))}
                     </div>
 
-         
                     <div className="flex flex-col -ml-10 sm:ml-0 items-start space-y-2 md:col-span-2">
                       {items.slice(3).map((item, index) => (
                         <button
                           key={index}
                           onClick={() => {
-                            const element = document.getElementById(item?.section);
+if(item?.section !== 'contact'){
+                            const element = document.getElementById(
+                              item?.section
+                            );
                             element?.scrollIntoView({
                               behavior: "smooth",
-                            }) }}
-                     
+                            });
+                          }
+
+else {
+
+  setIsOpenContact(true)
+  setOpen(false)
+}
+
+
+                          }
+
+                      
+
+
+                        }
                           className="hover:text-blue-600 text-[20px]"
                         >
                           {item.name}
@@ -357,8 +366,6 @@ export default function Navbar() {
           </div>
         )}
       </div>
-
-  
     </div>
   );
 }
