@@ -8,7 +8,7 @@ export default function Footer() {
         <div class=" w-full relative pb-4 bg-gradient-to-br from-[#080852 to-[#1956DC border-4 border-green-500  bg-[#080852] bg-center rounded-2xl">
 
           <img
-            class="absolute   bottom-[3px] md:bottom-[-5%] left-[9%] md:left-[23%] !w-[80%]  md:!w-[60%]   -z-2 opacity-[0.2"
+            class="absolute   bottom-[3px] md:bottom-[-5%] left-[9%] md:left-[23%] !w-[80%]   md:!w-[60%]   -z-2 opacity-[0.2"
             src="/right-left.png"
           />
 
@@ -16,23 +16,23 @@ export default function Footer() {
 
           <div class="grid relative z-10 py-12 grid-cols-1 lg:grid-cols-2  lg:items-center">
             <div class="p-12 h-full">
-              <h3 class="text-white mb-2 font-extralight sm:text-[75px]">
+              <h3 class="text-white mb-2 font-extralight text-[35px] sm:text-[45px] md:text-[50px] w-[600px]">
                 Ready to become
               </h3>
               <div class="flex items-center">
-                <img class="" src="/UN.png" />
-                <span class="font-bold text-white  sm:text-[75px] uppercase">
+                <img class=" w-[40px] sm:w-[60px] " src="/UN.png"  />
+                <span class="font-bold text-white  text-[28px] sm:text-[40px] md:text-[50px] uppercase">
                   stoppable?
                 </span>
               </div>
-              <p class="text-[24px] text-[#FFFFFF] font-thin ">
+              <p class="text-sm sm:text-[24px] text-[#FFFFFF] font-thin ">
                 If you’re looking to collaborate and grow your business
                 capabilities, we’d be happy to support you in with the power of
                 our collective expertise.
               </p>
             </div>
             <div class="text-center mx-auto w-[100%] px-4 lg:px-0 lg:!w-auto">
-              <button class="bg-[#82C809] xl:-[390px] h-[70px] py-3 rounded-md cursor-pointer px-16  flex items-center">
+              <button class="bg-[#82C809] xl:-[390px] h-[70px] py-3 rounded-md cursor-pointer px-16  flex items-center ml-10">
                 <img src="/btn.png" />
                 <span class="text-white">lock Potential</span>
               </button>
