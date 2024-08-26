@@ -134,7 +134,7 @@ export default function Navbar() {
         </div>
 
         <div
-          className={`fixed  left-0  overflow-hidden  false  z-[9999]   w-screen ${
+          className={`fixed  left-0  overflow-hidden  false  z-[9999]   w-screen py-4 ${
             isFixed ? "bg-[#080852] top-2" : " top-4"
           }`}
         >
@@ -244,7 +244,7 @@ export default function Navbar() {
                   We Are
                   <div class="flex  !items-center mx-2">
                     <img
-                      class="lg:w-[170px] lg:h-[105px] w-[45px]  object-center h-[30px] md:ml-2 md:-mb-2"
+                      class="lg:w-[170px] lg:h-[105px] w-[34px]  object-center h-[22px] md:ml-2 md:-mb-2"
                       src="/btn2-big.png"
                     />
 
@@ -258,7 +258,7 @@ export default function Navbar() {
                   
                     key={text[currentIndex]}
                     
-                    className={`content-list !overflow-hidden text-white animation1 lg:text-[133px] text-[25px] sm:text-[35px] uppercase font-semibold transition-transform duration-500 ease-in-out  ${text === 'DERS1TANDABLE' ? 'text-25px' : 'text-[40px]'}`}>
+                    className={`content-list !overflow-hidden text-white animation1 lg:text-[133px] text-[19px] xs:text-[22px] sm:text-[35px] uppercase font-semibold transition-transform duration-500 ease-in-out  ${text === 'DERS1TANDABLE' ? 'text-25px' : 'text-[40px]'}`}>
                       {/* <TypeAnimation
                         sequence={[
                           
