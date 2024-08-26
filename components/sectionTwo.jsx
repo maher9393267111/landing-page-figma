@@ -49,6 +49,12 @@ export default function SectionTwo() {
               <div>Technology</div>
               <div>Business Coaching</div>
               <div>Business Consulting &amp; Transformation</div>
+
+              <div>AI integration</div>
+              
+
+
+
             </div>
             <div className="relative w-[30px]">
               <div className="w-[2px] h-full bg-gradient-to-b from-[rgba(255,255,255,1)] to-[rgba(255,255,255,0)]"></div>
@@ -65,6 +71,11 @@ export default function SectionTwo() {
               <div>PR &amp; Corporate Communications</div>
               <div>Fractional Executive Support</div>
               <div>Training &amp; Development</div>
+              
+              <div>Research</div>
+
+              
+              <div>CRM</div>
             </div>
           </div>
           <div className="text-white  sm:hidden flex     justify-center  mt-10">
