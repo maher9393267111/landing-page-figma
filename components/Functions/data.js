@@ -155,7 +155,7 @@ export const companyData = [
   id:5,
   title:'Command Plus',
   desc:'We are a boutique, creative-led agency based in Dubai and Cairo. We are a group of independent, fresh, creative problem-solvers. We are not your typical creative agency; instead, we are a compact team — exactly the kind of agency you might be looking for.Our capabilities are:- Branding & Design.- Content Production. (Photo and Video)- Marketing Communication (Online and Offline).',
-  image:'/brands/cmd+ Black.png',
+  image:'/brands/cmd.png',
   link:'https://www.commandplus.ae'
 
 
