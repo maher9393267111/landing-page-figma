@@ -258,7 +258,7 @@ export default function Navbar() {
                   
                     key={text[currentIndex]}
                     
-                    className={`content-list !overflow-hidden text-white animation1 lg:text-[133px] text-[19px] xs:text-[22px] sm:text-[35px] uppercase font-semibold transition-transform duration-500 ease-in-out  ${text === 'DERS1TANDABLE' ? 'text-25px' : 'text-[40px]'}`}>
+                    className={`content-list !overflow-hidden text-white animation1 lg:text-[133px] text-[17px] xs:text-[18px] sm:text-[35px] uppercase font-semibold transition-transform duration-500 ease-in-out  ${text === 'DERS1TANDABLE' ? 'text-25px' : 'text-[40px]'}`}>
                       {/* <TypeAnimation
                         sequence={[
                           
@@ -333,6 +333,10 @@ export default function Navbar() {
               </span>
               Collbrate With Us
             </Button> */}
+
+
+
+
 
               <Button
                 onClick={() => setIsOpen(true)}
