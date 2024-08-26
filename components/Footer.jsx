@@ -82,14 +82,14 @@ export default function Footer() {
                 2024 © weareunlmtd. All rights reserved
               </p>
 
-              <div className="flex gap-8  text-[18px]">
+              <div className="flex gap-8  !text-black !fomt-thin  text-[18px]">
                 <div>
-                  <Link className=" !no-underline" href={"/privacy"}>
+                  <Link className=" !no-underline !text-black !fomt-thin" href={"/privacy"}>
                     Privacy
                   </Link>
                 </div>
                 <div>
-                  <Link className=" !no-underline" href={"/cookies"}>
+                  <Link className="!no-underline !text-black !fomt-thin" href={"/cookies"}>
                     Cookie Disclaimer
                   </Link>
                 </div>
