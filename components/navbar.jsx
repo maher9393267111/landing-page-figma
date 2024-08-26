@@ -355,7 +355,7 @@ export default function Navbar() {
           <div className=" !z-50 fixed top-0 right-0 left-0 bottom-0 ">
             <div className="!w-full  !max-w-screen-lg -top-[30px] !z-50 relativ absolute  ">
               <div
-                className={`sm:flex flex-col h-[400px] w-[100vw] justify-between  bg-white relative !z-10 pt-20 pb-10    ${
+                className={`sm:flex flex-col h-[400px] w-[100vw] justify-between  bg-white relative !z-10 pt-[7rem] pb-10    ${
                   open ? "block" : "hidden"
                 }`}
               >
