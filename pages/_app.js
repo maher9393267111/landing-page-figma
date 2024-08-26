@@ -13,7 +13,7 @@ const MyApp = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
-        <title>Project</title>
+        <title>Project Limited Co</title>
       </Head>
 
       <ChakraProvider>
