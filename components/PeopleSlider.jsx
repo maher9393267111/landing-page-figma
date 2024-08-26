@@ -35,7 +35,7 @@ export default function DigiSuggestion({}) {
     slidesPerRow: 1,
     autoplay:true,
     autoplay: {
-      delay: 1000,
+      delay: 100,
     },
 
     slidesToShow: 3,

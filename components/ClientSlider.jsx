@@ -82,7 +82,7 @@ export default function ClientSlider({}) {
     speed: 500,
     autoplay: true,
     autoplay: {
-      delay: 1000,
+      delay: 100,
     },
     // rows: 2,
 
@@ -160,7 +160,7 @@ export default function ClientSlider({}) {
             })}
           </Slider>
 
-          <Swiper
+          {/* <Swiper
             autoplay={true}
             slidesPerView="auto"
             pagination={true}
@@ -202,7 +202,10 @@ export default function ClientSlider({}) {
                 //   </Fragment>
               );
             })}
-          </Swiper>
+          </Swiper> */}
+
+
+
         </div>
       </div>
     )
