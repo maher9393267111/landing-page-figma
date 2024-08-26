@@ -28,20 +28,20 @@ export default function CollabrateModal({ isOpen, setIsOpen }) {
         e.preventDefault();
 
 
-        axios.post(url + "/" + prefix + '/request/send', formData , {
-                headers:{
-                'Authorization' : 'Bearer ' + token,
-                }
-            })
-            .then((response) => {
-                toast.success("سفارش با موفقیت ثبت شد منتظر تماس کارشناسان ما باشید");
-            })
-            .catch((error) => {
-                toast.error(error.response.data)
-            })
-            .finally(() => {
-                console.log("final")
-            });
+        // axios.post(url + "/" + prefix + '/request/send', formData , {
+        //         headers:{
+        //         'Authorization' : 'Bearer ' + token,
+        //         }
+        //     })
+        //     .then((response) => {
+        //         toast.success("سفارش با موفقیت ثبت شد منتظر تماس کارشناسان ما باشید");
+        //     })
+        //     .catch((error) => {
+        //         toast.error(error.response.data)
+        //     })
+        //     .finally(() => {
+        //         console.log("final")
+        //     });
     };
 
 
