@@ -72,17 +72,33 @@ export default function Footer() {
                 <div>Instagram</div>
               </div>
 
-              <span class="text-[18px] font-thin sm:text-right">
+              <span class="text-[18px]  font-thin sm:text-right">
                 <Link className=" !no-underline" href={'/privacy'}>
 
- Cookie Disclaimer
+ Privacy
                 </Link>
-               <span className="px-1">|</span>
+               <span className="px-2">|</span>
                 <Link className="!no-underline" href={'/cookies'}>
 
 
   Cookie Disclaimer
 </Link>
+
+
+<span className="px-2 ">|</span>
+
+
+
+
+<Link className=" !no-underline" href={'/privacy'}>
+
+Terms and conditions
+               </Link>
+
+
+
+
+
               </span>
             </div>
           </div>
