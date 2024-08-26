@@ -26,13 +26,13 @@ export default function SectionOne() {
             <div className="flex flex-col-reverse gap-4  sm:flex-row sm:gap-40 mt-8 ">
               <div className="flex  gap-8 md:w-[60%] justify-center">
                 <div className="flex  flex-col w-1/2">
-                  <span className="lg:w-1/2 text-[#82C809] font-medium text-[40px]">
+                  <span className="lg:w-1/2  font-tajwal text-[#82C809] font-medium text-[40px]">
                     30
                   </span>
                   <span className="text-[15px]">Years&nbsp;on the market</span>
                 </div>
                 <div className="  flex flex-col w-1/2">
-                  <span className="lg:w-1/2 text-[#82C809] font-medium text-[40px]">
+                  <span className="lg:w-1/2 font-tajwal text-[#82C809] font-medium text-[40px]">
                     300
                   </span>
                   <span className="text-[15px]">Satisfied Customers</span>

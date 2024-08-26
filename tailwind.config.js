@@ -25,6 +25,7 @@ module.exports = {
         'serif': ['Raleway', 'ui-serif', 'Georgia'],
         'mono': ['ui-monospace', 'SFMono-Regular'],
         'raleway': ['Raleway', 'sans-serif'],
+        'tajwal': ['Tajawal', 'sans-serif']
       },
       colors: {
         primary: "#fde68a",
