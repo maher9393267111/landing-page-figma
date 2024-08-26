@@ -29,6 +29,10 @@ export default function DigiSuggestion({}) {
     slidesToShow: 1,
     slidesToScroll: 1,
     speed: 500,
+    autoplay:true,
+    autoplay: {
+      delay: 1000,
+    },
 
     slidesPerRow: 2,
     rows: 2,
@@ -36,7 +40,7 @@ export default function DigiSuggestion({}) {
 
     slidesToShow: 4,
     slidesToScroll: 3,
-    infinite: true,
+ 
 
     responsive: [
       {
@@ -45,7 +49,7 @@ export default function DigiSuggestion({}) {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: false,
+        
         },
       },
       {
@@ -54,7 +58,7 @@ export default function DigiSuggestion({}) {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: false,
+          
         },
       },
       {

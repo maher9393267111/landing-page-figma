@@ -89,12 +89,12 @@ export default function ContactModal({ isOpen, setIsOpen }) {
 
 
 <div>
-  <img className=" w-[60px] h-[40px]" src="/collogo.png" alt="" />
+  <img className=" lg:w-[60px] lg:h-[40px]  w-[45px] h-[25px]" src="/collogo.png" alt="" />
 </div>
 
 <div className=" flex mt-3 items-center">
-<img className="w-[44px]  h-[30px] lg:w-[74px] lg:h-[50px]  " src="/cplln.png" alt="" />
-<span className="text-[30px] lg:text-[75px] text-[#080852] ">Lock Potential</span>
+<img className="w-[28px]  h-[20px] lg:w-[74px] lg:h-[50px]  " src="/cplln.png" alt="" />
+<span className="text-[20px] lg:text-[75px] text-[#080852] ">Lock Potential</span>
 </div>
 
 <div>

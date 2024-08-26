@@ -83,6 +83,10 @@ const settings = {
   slidesToScroll: 1,
   dots:true,
   speed: 500,
+  autoplay:true,
+  autoplay: {
+    delay: 2000,
+  },
  // rows: 2,
     
     rows: 4,
