@@ -86,10 +86,18 @@ export default function Navbar() {
 
 
   const text = [
-    "puternici!",
-    "Amintiri",
-    "Proiecte",
-  ];
+    "BEATABLE",
+    "DERSTANDABLE",
+    "STOPPABLE",
+    "AFRAID",
+    "CONVENTIONAL",
+    "WAVERING",
+    "PARALLELED",
+    "COMPROMISING",
+    "BELIEVABLE",
+    "EXPECTED",
+    "LMTD"
+  ]
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
