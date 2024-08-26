@@ -51,7 +51,7 @@ export default function Footer() {
                 <span className="text-[#191919]  uppercase font-semibold">
                   lmtd
                 </span>{" "}
-                <span classNameName="mx-2">Potential</span>
+                <span className="mx-2">Potential</span>
               </div>
             </p>
 
@@ -82,21 +82,21 @@ export default function Footer() {
                 2024 © weareunlmtd. All rights reserved
               </p>
 
-              <div className="flex gap-8  stext-[18px]">
+              <div className="flex gap-8  text-[18px]">
                 <div>
-                  <Link classNameName=" !no-underline" href={"/privacy"}>
+                  <Link className=" !no-underline" href={"/privacy"}>
                     Privacy
                   </Link>
                 </div>
                 <div>
-                  <Link classNameName=" !no-underline" href={"/cookies"}>
+                  <Link className=" !no-underline" href={"/cookies"}>
                     Cookie Disclaimer
                   </Link>
                 </div>
 
                 <div>
-                  <Link classNameName=" !no-underline" href={"/terms"}>
-                    Terms and conditions
+                  <Link className=" !text-black !font-thin !no-underline" href={"/terms"}>
+                    Terms
                   </Link>
                 </div>
               </div>
