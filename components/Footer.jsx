@@ -77,7 +77,7 @@ export default function Footer() {
               </div>
             </div>
 
-            <div className="flex mt-12 flex-col-rever flex-col md:flex-row justify-between w-full   gap-3">
+            <div className="flex mt-12 flex-col-reverse flex-co md:flex-row justify-between w-full   gap-3">
               <p className="text-[18px] mt-2 sm:mt-0 ">
                 2024 © weareunlmtd. All rights reserved
               </p>
@@ -100,6 +100,9 @@ export default function Footer() {
                   </Link>
                 </div>
               </div>
+
+
+
             </div>
           </div>
         </div>
