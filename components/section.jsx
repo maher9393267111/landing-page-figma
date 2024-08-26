@@ -33,10 +33,19 @@ export default function SectionOne() {
                 </div>
                 <div className="  flex flex-col w-1/2">
                   <span className="lg:w-1/2 font-tajwal text-[#82C809] font-medium text-[40px]">
-                    300
+                    400
                   </span>
                   <span className="text-[15px]">Satisfied Customers</span>
                 </div>
+
+                <div className="  flex flex-col w-1/2">
+                  <span className="lg:w-1/2 font-tajwal text-[#82C809] font-medium text-[40px]">
+                  10+
+                  </span>
+                  <span className="text-[15px]"> Countries</span>
+                </div>
+
+
               </div>
               <div className="    sm:w-1/4 text-[14px] items-center">
                 At <span className="font-bold">Unlmtd</span>, our collective
