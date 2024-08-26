@@ -5,10 +5,11 @@ export default function SectionTwo() {
     <div id="services">
       <div className="py-16  md:py-28 bg-gradient-to-tr bg-[#080852]  relative mx-auto w-full">
         <img 
+        
   //  src='bg-sec3.png'
    src="/Mask.png"
   
-  alt="wallpaper" className="absolute inset-0 w-full h-[1000px] object-cover mix-blend-overlay"/>
+  alt="wallpaper" className="absolute  inset-0 w-full h-full object-cover mix-blend-overlay"/>
 
         <div className="sm:w-[90%] mx-auto mt-12 !mb-28">
           <div className="flex flex-col sm:flex-row  gap-4">
