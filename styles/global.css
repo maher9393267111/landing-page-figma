@@ -144,10 +144,44 @@ body {
 }
 
 
+.text-animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
 
+.text-animation__text {
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.text-animation__text span {
+  opacity: 0;
+  transform: translateY(100%);
+  animation: animate-slide-up 0.5s ease-out forwards;
+  margin-right: 0.5rem;
+}
 
+.text-animation__text span.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
 
+@keyframes animate-slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 
 

@@ -5,6 +5,7 @@ import { Container, Divider, SimpleGrid } from "@chakra-ui/react";
 import { TypeAnimation } from "react-type-animation";
 import ContactModal from "./modals/contactModal";
 import CollabrateModal from "./modals/collabrateModal";
+import { motion, useInView, useAnimation } from "framer-motion";
 import {
   Modal,
   ModalOverlay,
@@ -81,12 +82,25 @@ export default function Navbar() {
     };
   }, []);
 
-  // const {  isOpen, onOpen, onClose } = useDisclosure()
 
-  const openModal = () => {
-    //  setIsOpen(true)
-    console.log("ssasas");
-  };
+
+
+  const text = [
+    "puternici!",
+    "Amintiri",
+    "Proiecte",
+  ];
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % text.length);
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  
 
   return (
     <div className=" h-[555px]  z-50  md:h-[800px]     !overflow-x-hidden  ">
@@ -228,8 +242,16 @@ export default function Navbar() {
 
                     {/* <span class="text-white lg:text-[155px] text-[40px]  uppercase font-semibold">{text}</span>  */}
 
-                    <span className="text-white animation1 lg:text-[133px] text-[40px] uppercase font-semibold transition-transform duration-500 ease-in-out">
-                      <TypeAnimation
+                    <motion.span
+                    
+                    initial={{ y: 50, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 1 }}
+                  
+                    key={text[currentIndex]}
+                    
+                    className="content-list !overflow-hidden text-white animation1 lg:text-[133px] text-[40px] uppercase font-semibold transition-transform duration-500 ease-in-out">
+                      {/* <TypeAnimation
                         sequence={[
                           
                           "BEATABLE",
@@ -264,10 +286,27 @@ export default function Navbar() {
                         // style={{ fontSize: '2em', display: 'inline-block' }}
                         repeat={Infinity}
                       />
+                       */}
+
+
+{text[currentIndex]}
 
 
 
-                    </span>
+{/* <motion.p
+                  initial={{ y: 10, opacity: 0 }}
+                  animate={{ y: -20, opacity: 1 }}
+                  transition={{ duration: 1 }}
+                  className="mt-4 sm:text-md/relaxed text-white"
+                  key={text[currentIndex]}
+                >
+                  ”{text[currentIndex]}”
+                </motion.p>
+ */}
+
+
+
+                    </motion.span>
 
                     {/* <span className="mx-2 text-[40px] lg-text-[155px]">Potential</span> */}
                   </div>
