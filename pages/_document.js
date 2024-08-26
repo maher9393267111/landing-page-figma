@@ -8,7 +8,7 @@ export default class MyDocument extends Document {
         <Head>
         <title>
             
-    Nabhan Mobilya
+    Landing
             
             </title>
           <link rel="icon" href="/logo.jpg" />

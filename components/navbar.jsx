@@ -242,7 +242,7 @@ export default function Navbar() {
               <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
                 <p class="sm: hidde cursor-pointer  text-[22px]  items-center font-normal  text-white  lg:text-[84px]">
                   We Are
-                  <div class="flex  items-center mx-2">
+                  <div class="flex  !items-center mx-2">
                     <img
                       class="lg:w-[170px] lg:h-[105px] w-[45px]  object-center h-[30px] md:ml-2 md:-mb-2"
                       src="/btn2-big.png"
@@ -258,7 +258,7 @@ export default function Navbar() {
                   
                     key={text[currentIndex]}
                     
-                    className="content-list !overflow-hidden text-white animation1 lg:text-[133px] text-[40px] uppercase font-semibold transition-transform duration-500 ease-in-out">
+                    className={`content-list !overflow-hidden text-white animation1 lg:text-[133px] text-[29px] uppercase font-semibold transition-transform duration-500 ease-in-out  ${text === 'DERS1TANDABLE' ? 'text-25px' : 'text-[40px]'}`}>
                       {/* <TypeAnimation
                         sequence={[
                           

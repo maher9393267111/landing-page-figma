@@ -22,7 +22,7 @@ export default function Index({}) {
 
   return (
     <div className=" ">
-      <NextSeo title="Nabhan | Nabhan Furniture | Nabhan Mobilya" />
+      <NextSeo title="Landing" />
 
 <div className="mb-2  overflow-x-hidden">
 
