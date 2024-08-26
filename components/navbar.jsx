@@ -258,7 +258,7 @@ export default function Navbar() {
                   
                     key={text[currentIndex]}
                     
-                    className={`content-list !overflow-hidden text-white animation1 lg:text-[133px] text-[29px] uppercase font-semibold transition-transform duration-500 ease-in-out  ${text === 'DERS1TANDABLE' ? 'text-25px' : 'text-[40px]'}`}>
+                    className={`content-list !overflow-hidden text-white animation1 lg:text-[133px] text-[25px] sm:text-[35px] uppercase font-semibold transition-transform duration-500 ease-in-out  ${text === 'DERS1TANDABLE' ? 'text-25px' : 'text-[40px]'}`}>
                       {/* <TypeAnimation
                         sequence={[
                           
