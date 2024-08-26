@@ -222,30 +222,51 @@ export default function Navbar() {
                   We Are
                   <div class="flex  items-center mx-2">
                     <img
-                      class="lg:w-[180px] lg:h-[115px] w-[45px]  object-center h-[30px] md:ml-2 md:-mb-2"
+                      class="lg:w-[170px] lg:h-[105px] w-[45px]  object-center h-[30px] md:ml-2 md:-mb-2"
                       src="/btn2-big.png"
                     />
 
                     {/* <span class="text-white lg:text-[155px] text-[40px]  uppercase font-semibold">{text}</span>  */}
 
-                    <span className="text-white lg:text-[155px] text-[40px] uppercase font-semibold transition-transform duration-500 ease-in-out">
+                    <span className="text-white animation1 lg:text-[133px] text-[40px] uppercase font-semibold transition-transform duration-500 ease-in-out">
                       <TypeAnimation
                         sequence={[
-                          // Same substring at the start will only be typed out once, initially
-                          "produc",
-                          1000, // wait 1s before replacing "Mice" with "Hamsters"
-                          "Wproduce",
+                          
+                          "BEATABLE",
                           1000,
-                          "produce",
+                          "STOPPABLE",
                           1000,
-                          "produce",
+                          "AFRAID",
                           1000,
+                          "CONVENTIONAL",
+                          1000,
+
+                          "WAVERINGL",
+                          1000,
+
+                          "PARALLELED",
+                          1000,
+
+                          "COMPROMISING",
+                          1000,
+                          
+                          "BELIEVABLE",
+                          1000,
+                          "EXPECTED",
+                          1000,
+                          "LMTD",
+                          1000,
+
+
                         ]}
                         wrapper="span"
                         speed={50}
                         // style={{ fontSize: '2em', display: 'inline-block' }}
                         repeat={Infinity}
                       />
+
+
+
                     </span>
 
                     {/* <span className="mx-2 text-[40px] lg-text-[155px]">Potential</span> */}

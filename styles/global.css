@@ -146,3 +146,72 @@ body {
 
 
 
+
+
+
+
+
+
+/* ---------------------- */
+
+@font-face
+{font-family:"Cambria Math";
+panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+{font-family:Calibri;
+panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+{margin:0in;
+font-size:12.0pt;
+font-family:"Times New Roman",serif;}
+h3
+{mso-style-link:"Heading 3 Char";
+margin-top:16.0pt;
+margin-right:0in;
+margin-bottom:4.0pt;
+margin-left:0in;
+line-height:115%;
+page-break-after:avoid;
+font-size:14.0pt;
+font-family:"Arial",sans-serif;
+color:#434343;
+font-weight:normal;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+{mso-style-link:"Header Char";
+margin:0in;
+font-size:12.0pt;
+font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+{mso-style-link:"Footer Char";
+margin:0in;
+font-size:12.0pt;
+font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+{color:#0563C1;
+text-decoration:underline;}
+span.HeaderChar
+{mso-style-name:"Header Char";
+mso-style-link:Header;}
+span.FooterChar
+{mso-style-name:"Footer Char";
+mso-style-link:Footer;}
+span.Heading3Char
+{mso-style-name:"Heading 3 Char";
+mso-style-link:"Heading 3";
+font-family:"Arial",sans-serif;
+color:#434343;}
+.MsoChpDefault
+{font-size:12.0pt;
+font-family:"Calibri",sans-serif;}
+/* Page Definitions */
+@page WordSection1
+{size:8.5in 11.0in;
+margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+{page:WordSection1;}
+/* List Definitions */
+ol
+{margin-bottom:0in;}
+ul
+{margin-bottom:0in;}
