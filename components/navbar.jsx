@@ -123,15 +123,26 @@ export default function Navbar() {
         <CollabrateModal isOpen={isOpen} setIsOpen={setIsOpen} />
         
 
-        <div className=" !overflow-x-hidden">
-          <div className="absolute hidden lg:block !overflow-x-hidden -right-[200px]  top-32    ">
+        <div className=" !overflow-x-hidden  m-0">
+          {/* <div className="absolute hidden lg:block !overflow-x-hidden -right-[200px]  top-32    ">
+            <img src="/section1.png" className="w-[720px]" />
+          </div> */}
+
+
+
+         <div className="absolute hidden lg:block  !overflow-x-hidden -right-[6px] top-32    ">
             <img src="/section1.png" className="w-[720px]" />
           </div>
+
+
 
           <div className="absolute block lg:hidden  !overflow-x-hidden -right-[6px] top-32    ">
             <img src="/circlenavMobile.png" className="w-[300px]" />
           </div>
         </div>
+
+
+
 
         <div
           className={`fixed  left-0  overflow-hidden  false  z-[9999]   w-screen py-4 ${
