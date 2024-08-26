@@ -288,9 +288,9 @@ export default function Navbar() {
 
         {open && (
           <div className=" !z-50 fixed top-0 right-0 left-0 bottom-0 ">
-            <div className="!w-full  !max-w-screen-lg -top-[20px] !z-10 relativ absolute  ">
+            <div className="!w-full  !max-w-screen-lg -top-[30px] !z-50 relativ absolute  ">
               <div
-                className={`sm:flex flex-col h-[300px] w-[100vw] justify-between  bg-white relative !z-10 pt-20 pb-10    ${
+                className={`sm:flex flex-col h-[400px] w-[100vw] justify-between  bg-white relative !z-10 pt-20 pb-10    ${
                   open ? "block" : "hidden"
                 }`}
               >
@@ -314,7 +314,7 @@ export default function Navbar() {
                   <div className="grid grid-cols-2 gap-40 !w-full mx-auto  md:grid-cols-5 text-black">
                  
                     <div className="flex flex-col ml-10 sm:ml-20 items-start space-y-2 md:col-span-3  ">
-                      {items.slice(1, 3).map((item, index) => (
+                      {items.slice(0, 3).map((item, index) => (
                         <button
                           key={index}
                         

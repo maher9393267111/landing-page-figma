@@ -41,14 +41,19 @@ const settings = {
   slidesToShow: 1,
   slidesToScroll: 1,
   speed: 500,
- // rows: 2,
+
     slidesPerRow: 2,
     rows: 2,
    slidesPerRow:1 ,
 
+   slidesToShow: 5,
+   slidesToScroll: 3,
+   infinite: true,
+
+
   responsive: [
     {
-      breakpoint: 1700,
+      breakpoint: 1350,
       settings: {
         slidesToShow: 3,
         slidesToScroll: 3,
@@ -63,7 +68,7 @@ const settings = {
         slidesToShow: 3,
         slidesToScroll: 3,
         infinite: true,
-        dots: true,
+        dots: false,
 
       }
     },
