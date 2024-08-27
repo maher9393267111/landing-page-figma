@@ -12,6 +12,13 @@ import Head from "next/head";
 const MyApp = ({ Component, pageProps }) => {
   return (
     <>
+      <Head>
+        <title>Project Limited Co</title>
+      </Head>
+
+
+
+
 
 
       <ChakraProvider>
