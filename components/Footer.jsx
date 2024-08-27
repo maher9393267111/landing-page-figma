@@ -28,7 +28,7 @@ export default function Footer() {
                   className=" w-[36px] h-[25px] md:w-[85px] md:h-[55px]"
                   src="/UN.png"
                 />
-                <span className="font-bold text-white text-[30px]  md:text-[75px] uppercase">
+                <span className="font-bold text-white text-[30px] md:text-[60px] lg:text-[70px] uppercase">
                   stoppable?
                 </span>
               </div>
@@ -47,7 +47,7 @@ export default function Footer() {
                 setIsOpen(true)
               }}
               
-              className="bg-[#82C809] w-full text-center lg:w-[370px] md:h-[70px] py-3 rounded-md cursor-pointer px-4  md:px-16  justify-center flex items-center">
+              className="bg-[#82C809] w-full  text-center lg:w-[300px] md:h-[70px] py-3 rounded-md cursor-pointer px-4  md:px-16  justify-center flex items-center">
                 <img className="" src="/btn.png" />
                 <span className="text-white md:text-[22px]  text-[18px] ">lock Potential</span>
               </button>
@@ -64,7 +64,7 @@ export default function Footer() {
               Unlock Your
               <div className="flex items-center mx-2">
                 <img
-                  className="xl:w-[72px] object-fit xl:h-[46px] w-[24px] h-[24px] md:ml-2 md:-mb-2"
+                  className="object-fit md:w-[45px] md:h-[28px] lg:w-[45px] lg:h-[28px] lg:mb-0 xl:w-[72px] xl:h-[48px] w-[27px] h-[27px] md:ml-2 md:-mb-0 xl:mb-0"
                   src="/UN.png"
                 />
                 <span className="text-[#191919]  uppercase font-semibold">
@@ -93,7 +93,7 @@ export default function Footer() {
                 hello@weareunlmtd.com
               </p>
 
-              <div className="flex gap-8  sm:text-[40px] hidden">
+              <div className="flex gap-8  sm:text-[40px]">
                 <div>LinkedIn</div>
                 <div>Instagram</div>
               </div>

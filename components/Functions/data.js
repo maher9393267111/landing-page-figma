@@ -1,12 +1,17 @@
 export const people = [
-  { id: 1, 
-    name: "Amal Swiedan",
-    first:"Amal",
-    last:"Swiedan",
-    title:'Business Consultant & Fractional Executive', 
-    link:"https://www.linkedin.com/in/amalsweidan/" ,  
-    image: "/people/Amal-Sweidan-pic.jpeg", 
-    desc: "Amal is a highly accomplished and results-driven management professional with over 25 years of experience, primarily within the FMCG industry and professional services. Her impressive career includes key roles at renowned companies such as British American Tobacco, Imperial Brands, and Solico Food Management, covering regions across the Middle East, Africa, and Asia.With a strong foundation in building and executing winning strategies, Amal has been instrumental in driving commercial growth, profitability, and achieving market leadership for her employers. Her expertise spans both strategic and operational domains, including business strategy and development, pricing and revenue growth, marketing, strategic and operational planning, analytics, research, brand management, and supply chain management.Amal's deep understanding of the business landscape, coupled with her practical approach to tackling challenges, ensures that she brings both insight and actionable solutions to any transformation process. Her ability to balance strategic vision with operational excellence makes her an invaluable asset to any organization seeking to navigate the complexities of modern business.Amal's exceptional commercial acumen, her proven track record of success, her commitment to delivering tangible results and her capacity for driving impactful business transformations are what set her apart as one of the best business consultants in the industry." },
+  { 
+    id: 1,
+    name: "ROGER KANAKRI", 
+    first:"Roger",
+    last:"Kanakri",
+   image: "/people/Rodge.jpg",
+   title:"FOUNDER & CEO",
+   link:"https://www.linkedin.com/in/roger-kanakri-9a996b8/",
+    desc: "With a deep belief in the power of talent and the importance of fostering a supportive environment, Roger Kanakri founded Unlmtd.Known for his approachable leadership style, which emphasizes collaboration and innovation, Roger brings over 25 years of experience from leading multinational ad agencies such as Saatchi & Saatchi, BBDO, and Grey. In 2010, Roger transitioned from the corporate, finance-driven advertising world to co-found Livingroom Communication. Under his leadership, Livingroom Communication grew to become one of the leading independent agency in the region, known for its innovative approaches and commitment to nurturing talent.During his tenure at these renowned firms, he managed and led campaigns for top global brands like P&G, Warner Brothers World Abu Dhabi, Hershey's, Lacnor, Oasis, Red Bull, Nestle, Pepsi, Saudi American Bank, Commercial Bank of Dubai, Mashreq Bank, JTI, MAF and many more.Roger's vision for Unlmtd is to create a collective consultancy and management network that transforms the consultancy landscape. By uniting independent marketing communication companies with industry experts and strategists, Unlmtd delivers comprehensive services characterized by agility and personal engagement. Roger's management skills and dedication to nurturing talent ensure that every project benefits from a wealth of experience and creative insight. A tech enthusiast with an entrepreneurial spirit, Roger values happiness, creativity, and authenticity over conventional norms, politics, and mediocrity. He balances his professional life with a deep commitment to his family and a passion for cooking, which he considers the ultimate expression of love." 
+    
+
+  
+  },
 
   { id: 2,
      name: "Lamia Haddad",
@@ -15,7 +20,7 @@ export const people = [
      title:"GLOBAL BRAND ARCHITECT / LUXURY MARKETING EXPERT",
       image: "/people/lamia haddad.png", 
       link:"https://www.linkedin.com/in/lamiahaddad/",
-    desc: "With over 24 years of experience in marketing and brand management, I've had the pleasure of helping brands grow and thrive inServices FMCG and luxury sectors. My journey has taken me across the globe, working with over 140 markets to boost brand visibility and win numerous advertising awards. I’m passionate about creating unique, customer-centric experiences, especially in the luxury sector, and have a knack for doubling market share in key regions. I’m also proud to have founded The Fashion Consult, where I help clients refine their personal brand image and support Fashion Mid Size Business in trend analysis, fashion buying and brand Image Building . Managing  marketing budgets and crafting innovative strategies is my forte, always with an eye on sustainable growth and profitability. I’m excited to bring my strategic marketing skills, global relationship-building expertise, and a love for operational excellence to help new clients elevate their brand and achieve their marketing goals." 
+    desc: "With over 24 years of experience in marketing and brand management, I've had the pleasure of helping brands grow and thrive inServices FMCG and luxury sectors. My journey has taken me across the globe, working with over 140 markets to boost brand visibility and win numerous advertising awards. I'm passionate about creating unique, customer-centric experiences, especially in the luxury sector, and have a knack for doubling market share in key regions. I'm also proud to have founded The Fashion Consult, where I help clients refine their personal brand image and support Fashion Mid Size Business in trend analysis, fashion buying and brand Image Building . Managing  marketing budgets and crafting innovative strategies is my forte, always with an eye on sustainable growth and profitability. I'm excited to bring my strategic marketing skills, global relationship-building expertise, and a love for operational excellence to help new clients elevate their brand and achieve their marketing goals." 
   
   
   
@@ -51,18 +56,20 @@ export const people = [
      image: "/people/profile-pic (2).png",
      title:"CREATIVE STRATEGIST",
      link:"https://www.linkedin.com/in/ramisalame/",
-     desc: "I’m an award-winning Creative Strategist with a proven track record of transforming data-driven insights into compelling narratives and impactful campaigns. My expertise lies in developing and executing innovative brand, digital, and social strategies across the EMEA region, particularly in Saudi Arabia and the GCC, where I grew up and live today. I believe that big ideas with measurable results can generate revenue growth and secure major brand partnerships. As a strategic problem-solver and collaborative leader, I excel at building and inspiring cross-functional teams to achieve exceptional outcomes. I am passionate about fostering a positive and inclusive work environment where creativity thrives. With a deep understanding of cultural nuances and market trends, I am adept at crafting localized storytelling that connects with audiences on an emotional level.When not working, I’m spending time with my family, daydreaming, or writing short stories." 
+     desc: "I'm an award-winning Creative Strategist with a proven track record of transforming data-driven insights into compelling narratives and impactful campaigns. My expertise lies in developing and executing innovative brand, digital, and social strategies across the EMEA region, particularly in Saudi Arabia and the GCC, where I grew up and live today. I believe that big ideas with measurable results can generate revenue growth and secure major brand partnerships. As a strategic problem-solver and collaborative leader, I excel at building and inspiring cross-functional teams to achieve exceptional outcomes. I am passionate about fostering a positive and inclusive work environment where creativity thrives. With a deep understanding of cultural nuances and market trends, I am adept at crafting localized storytelling that connects with audiences on an emotional level.When not working, I'm spending time with my family, daydreaming, or writing short stories." 
 
 
   },
-  { id: 6,
-     name: "ROGER KANAKRI", 
-     first:"Roger",
-     last:"Kanakri",
-    image: "/people/Rodge.jpg",
-    title:"FOUNDER & CEO",
-    link:"https://www.linkedin.com/in/roger-kanakri-9a996b8/",
-     desc: "With a deep belief in the power of talent and the importance of fostering a supportive environment, Roger Kanakri founded Unlmtd.Known for his approachable leadership style, which emphasizes collaboration and innovation, Roger brings over 25 years of experience from leading multinational ad agencies such as Saatchi & Saatchi, BBDO, and Grey. In 2010, Roger transitioned from the corporate, finance-driven advertising world to co-found Livingroom Communication. Under his leadership, Livingroom Communication grew to become one of the leading independent agency in the region, known for its innovative approaches and commitment to nurturing talent.During his tenure at these renowned firms, he managed and led campaigns for top global brands like P&G, Warner Brothers World Abu Dhabi, Hershey’s, Lacnor, Oasis, Red Bull, Nestle, Pepsi, Saudi American Bank, Commercial Bank of Dubai, Mashreq Bank, JTI, MAF and many more.Roger's vision for Unlmtd is to create a collective consultancy and management network that transforms the consultancy landscape. By uniting independent marketing communication companies with industry experts and strategists, Unlmtd delivers comprehensive services characterized by agility and personal engagement. Roger’s management skills and dedication to nurturing talent ensure that every project benefits from a wealth of experience and creative insight. A tech enthusiast with an entrepreneurial spirit, Roger values happiness, creativity, and authenticity over conventional norms, politics, and mediocrity. He balances his professional life with a deep commitment to his family and a passion for cooking, which he considers the ultimate expression of love." 
+  { 
+    id: 6, 
+    name: "Amal Swiedan",
+    first:"Amal",
+    last:"Swiedan",
+    title:'Business Consultant & Fractional Executive', 
+    link:"https://www.linkedin.com/in/amalsweidan/" ,  
+    image: "/people/Amal-Sweidan-pic.jpeg", 
+    desc: "Amal is a highly accomplished and results-driven management professional with over 25 years of experience, primarily within the FMCG industry and professional services. Her impressive career includes key roles at renowned companies such as British American Tobacco, Imperial Brands, and Solico Food Management, covering regions across the Middle East, Africa, and Asia.With a strong foundation in building and executing winning strategies, Amal has been instrumental in driving commercial growth, profitability, and achieving market leadership for her employers. Her expertise spans both strategic and operational domains, including business strategy and development, pricing and revenue growth, marketing, strategic and operational planning, analytics, research, brand management, and supply chain management.Amal's deep understanding of the business landscape, coupled with her practical approach to tackling challenges, ensures that she brings both insight and actionable solutions to any transformation process. Her ability to balance strategic vision with operational excellence makes her an invaluable asset to any organization seeking to navigate the complexities of modern business.Amal's exceptional commercial acumen, her proven track record of success, her commitment to delivering tangible results and her capacity for driving impactful business transformations are what set her apart as one of the best business consultants in the industry." 
+  
     
     },
 
@@ -90,6 +97,17 @@ export const people = [
       desc: "Living in the UAE for over 20 years, Umer has made a positive contribution to both local and international businesses by integrating creative strategy, storytelling, behavioral psychology, design thinking and data into his work.He has spent the last 8 years deeply involved in studying and researching the rapid evolution of technology and its cultural significance in the age of AI.His expertise in storytelling and creative strategy have led to powerful outcomes on high-profile projects with Formula 1 McLaren and Cristiano Ronaldo.Umer’s unrelenting drive is rooted in first principles thinking and gives him the competitive edge in the constantly evolving relationship between people, products and technology.He is not invested in looking good in front of his clients, but rather ensuring his clients look good in front of their customers." 
      
      },
+     
+     { 
+      id: 9,
+      name: "Rana Wakim", 
+      first:"Rana",
+      last:"Wakim",
+     image: "/people/RanaWakim.png",
+     title:"MarComms & Media Production",
+     link:"https://www.linkedin.com/in/ranawakim/",
+      desc: "Rana Wakim is a dynamic marketing communications and media production leader, celebrated for her innovative strategies in monetization and branded integrations. With nearly two decades of experience, she has spearheaded the digital transformation of major entertainment platforms in the MENA region, driving substantial revenue growth through creative content strategies.As a founding member of Charisma Group and Billboard Arabia, Rana's expertise encompasses establishing production workflows, leading celebrity outreach, and shaping editorial direction. She has forged robust partnerships between brands, government bodies, and media entities, securing high-profile collaborations with global giants like YouTube, Netflix, and luxury brands.Rana's strategic vision has led to successful platform launches, impactful marketing campaigns, and the effective monetization of social media channels. Her ability to manage high-profile celebrity engagements has resulted in groundbreaking collaborations, amplifying brand visibility and revenue potential." 
+     }
  
 
  
@@ -103,10 +121,12 @@ export const companyData = [
 {
 
   id:1,
-  title:"ADCREATORS MENA",
-  desc:'Adcreators are the glue that binds a brand, its people and its customers. We area full-service creative digital marketing agency that has made it its mission topioneer brands, write stories, catalyze change and pave success.',
-  image:'/brands/adcreators.png',
-  link:'https://www.adcreatorsmena.com'
+  title:'DAF',
+  image:'/brands/Logo_Negro.png',
+  desc:'"At DAF, we transform visions into reality. Founded by the world’s second-best Executive Creative Director, we bring over 30 years of unparalleled experience in brand building, experience design, and advertising. Our team has spearheaded iconic campaigns for global giants like Burger King, Heinz, Mercedes-Benz, Apple, Google, Renault and McDonald’s. With 40+ Grand Prixes and countless awards, our creative consultancy doesn’t just meet expectations; we exceed them. From exceptional branding projects to innovative campaigns addressing strategic needs, DAF is your partner in turning creativity into tangible success."',
+  link:'www.imdaf.com'
+
+
 
 
 
@@ -116,44 +136,7 @@ export const companyData = [
 {
 
   id:2,
-  title:'Antworks',
-  desc:'Founded by Paul Boulos in 2018, Antworks Consulting is a business coaching and business transformation consulting firm based out of Dubai serving the region. Through its global partnerships it focuses on a unique methodology of delivering its services.',
-  image:'/brands/Antworks Consulting - Final Logo.jpg',
-  link:'www.antworksconsultants.com',
-  linkden:'https://www.linkedin.com/in/paulboulos',
-
-
-
-},
-
-{
-
-  id:3,
-  title:'Ashia',
-  desc:'Ashia, founded in 1995, is your trusted partner in crafting unique and customized gifts that leave a lasting impression. With expertise in embroidery and customization, and a presence in UAE, Lebanon, and Egypt, we bring your concepts to life with tailored solutions for events and business needs. From multinationals to advertising agencies, our bespoke services and live event embroidery ensure your brand stands out.',
-  image:'/brands/Ashia logo.png',
-  link:'www.ashia.ae'
-
-
-
-},
-
-{
-
-  id:4,
-  title:'Black Rhino',
-  desc:'',
-  image:'/brands/BLACKRHINO solo.jpg',
-  link:''
-
-
-
-},
-
-{
-
-  id:5,
-  title:'Command Plus',
+  title:'CMD+',
   desc:'We are a boutique, creative-led agency based in Dubai and Cairo. We are a group of independent, fresh, creative problem-solvers. We are not your typical creative agency; instead, we are a compact team — exactly the kind of agency you might be looking for.Our capabilities are:- Branding & Design.- Content Production. (Photo and Video)- Marketing Communication (Online and Offline).',
   image:'/brands/cmd.png',
   link:'https://www.commandplus.ae'
@@ -164,85 +147,151 @@ export const companyData = [
 
 {
 
-  id:6,
-  title:'Daf',
-  image:'/brands/Logo_Negro.png',
-  desc:'"At DAF, we transform visions into reality. Founded by the world’s second-best Executive Creative Director, we bring over 30 years of unparalleled experience in brand building, experience design, and advertising. Our team has spearheaded iconic campaigns for global giants like Burger King, Heinz, Mercedes-Benz, Apple, Google, Renault and McDonald’s. With 40+ Grand Prixes and countless awards, our creative consultancy doesn’t just meet expectations; we exceed them. From exceptional branding projects to innovative campaigns addressing strategic needs, DAF is your partner in turning creativity into tangible success."',
-  link:'www.imdaf.com'
-
-
-
-},
-
-{
-
-  id:7,
-  title:'Endscape Mena',
-  desc:'Endspace leverages today’s digital landscape and advanced technology toimprove business performance. Through strategic research and innovativecloud-based solutions, we drive revenue growth and expand business horizons.We collaborate closely with clients and partners to craft tailored solutionsthat address unique needs and industry challenges. Our agile approach encompasses everything from exploring emerging technologies to delivering scalable solutions.',
-  image:'/brands/endspace.png',
-  link:'https://endspacemena.com'
-
-
-
-},
-
-{
-
-  id:8,
-  title:'Jumee',
+  id:3,
+  title:'JURNEE',
   desc:'Strategic partners, generator of insights and positive business outcome. Storytellers, initiators of thoughts and conversations about your brand. Perception shifters, changing your mind by speaking to your heart. We are a creative, strategic, result driven communication and media powerhouse and we are on a relentless journey of business solutions through creativity.',
   image:'/brands/JURNEE  logo BLUE.png',
   link:'www.jurneeco.com'
 
 
 
+
+
+
+
 },
 
 {
 
-  id:9,
+
+  id:4,
+  title:"ADCREATORS MENA",
+  desc:'Adcreators are the glue that binds a brand, its people and its customers. We area full-service creative digital marketing agency that has made it its mission topioneer brands, write stories, catalyze change and pave success.',
+  image:'/brands/adcreators.png',
+  link:'https://www.adcreatorsmena.com'
+
+
+},
+
+{
+
+
+
+
+  id:5,
+  title:'The Bold Option',
+  desc:'Being Bold is the only option when everyone has the same tools, trends, and tactics.Welcome to the age of unlimited choices and limited attention.The Bold Option is a Creative Strategy & Tech Studio.We specialize in being generalists.Our bold approach focuses on understanding the intrinsic relationship between people, products and the evolving culture of technology.We work with diligence towards measurable business outcomes that are understandable, repeatable and scalable.',
+  image:'/brands/the bold option.png',
+  link:'umer@theboldoption.com'
+
+
+},
+
+{
+  id:6,
   title:'Lava Brands',
   desc:"Being an internationally recognized specialized branding and digital communications agency in Dubai and New Jersey compounded with over 20 years of extraordinary experience and knowledge, we believe that each brand is distinguished and we at LAVA BRANDS guarantee distinguished services as a result. In our world-renowned Brand Lab, we make sure that our tailor-made engagements and activations go above and beyond to meet the needs and cope with the upcoming challenges of the brand and market they are in.Our creative, branding and digital communication teams provides integrated marketing communication services that are cost effective and efficient. We make sure to partner with our clients to directly impact the brand's bottom line with measurable results, we are equipped with just the right expertise to set our clients apart from the competition with no looking back." ,
   image:'/brands/lava Logo.svg',
   link:'www.lava-brands.com'
 
+},
+
+
+{
+
+  id:7,
+  title:'Livingroomksa',
+  desc:'Your 360° Creative Advertising Partner in Jeddah Welcome to Livingroomksa, the pulse of creativity and innovation in Jeddah’s vibrant advertising landscape. Our mission is to transform visions into compelling narratives that captivate, inspire, and engage audiences across all platforms.As a premier advertising agency, we specialize in delivering comprehensive 360-degree in-house creative services that encompass everything from branding and event management to social media content creation and ad development. Our team is a passionate collective of talented professionals dedicated to crafting innovative and impactful campaigns. We pride ourselves on our ability to bring ideas to life and achieve exceptional results for our clients.At Livingroomksa, we are excited about the opportunity to partner with esteemed clients who share our vision for innovative and impactful advertising. Our commitment to excellence and passion for creativity drive us to deliver unparalleled results.',
+  image:'/brands/LIVINGROOM logo.png',
+  link:''
 
 
 },
 
 {
-  id:10,
-  title:'Livingroomksa',
-  desc:'Your 360° Creative Advertising Partner in Jeddah Welcome to Livingroomksa, the pulse of creativity and innovation in Jeddah’s vibrant advertising landscape. Our mission is to transform visions into compelling narratives that captivate, inspire, and engage audiences across all platforms.As a premier advertising agency, we specialize in delivering comprehensive 360-degree in-house creative services that encompass everything from branding and event management to social media content creation and ad development. Our team is a passionate collective of talented professionals dedicated to crafting innovative and impactful campaigns. We pride ourselves on our ability to bring ideas to life and achieve exceptional results for our clients.At Livingroomksa, we are excited about the opportunity to partner with esteemed clients who share our vision for innovative and impactful advertising. Our commitment to excellence and passion for creativity drive us to deliver unparalleled results.',
-  image:'/brands/LIVINGROOM logo.png',
+  id:8,
+  title:'Mia',
+  desc:"We focus on providing you with unparalleled, fully customized experiential and BTL marketing solutions; we are obsessively passionate about it.We want you to feel, see, and experience how we transform ideas into bona fide (real) creations.With MIA's ingenuity, creativity, and the ability to follow our “We Can & We Will” motto, we hope that we will parlay your first impressions into long lasting imprints." ,
+  image:'',
+  link:'www.mia-agency.com'
+
+
+}
+
+
+,
+
+{
+ 
+
+
+
+  id:9,
+  title:'Black Rhino',
+  desc:'',
+  image:'/brands/BLACKRHINO solo.jpg',
   link:''
-}
 
 
-,
-
-{
-  id:11,
-  title:'Bold',
-  desc:'Being Bold is the only option when everyone has the same tools, trends, and tactics.Welcome to the age of unlimited choices and limited attention.The Bold Option is a Creative Strategy & Tech Studio.We specialize in being generalists.Our bold approach focuses on understanding the intrinsic relationship between people, products and the evolving culture of technology.We work with diligence towards measurable business outcomes that are understandable, repeatable and scalable.',
-  image:'/brands/the bold option.png',
-  link:'umer@theboldoption.com'
 }
 ,
 
 
 {
-  id:12,
+  id:10,
   title:'Vidmatic',
   desc:' Vidmatic, a digital advertising agency founded in 2016, serves the GCC markets with expertise in diverse ad formats and geo-location campaigns. Prioritizing brand safety and anti-fraud measures, they handle programmatic, direct, and performance campaigns using various buying models. Trusted by sectors like FMCG, travel, real estate, telecom, banking and automotive, Vidmatic has executed over 2000 campaigns across GCC and international.',
   image:'/brands/vidmatic.svg',
   link:'https://vidmatic.ae'
 }
 ,
+{
+  id:11,
+  title:'Mindfield',
+  desc:'Since our debut in 2009, we have matured into a full-fledged data-driven Digital Agency, enabling our clients to embrace their  challenges, explore their solutions, and evolve in the digital landscape.  We are a team of aspiring digital specialists and a  hub for growing brands. Following the most advanced disciplines in communication, analytics, digital marketing, content creation, design, and web and app development.',
+  image:'/brands/Mindfield.png',
+  link:'https://mindfield.digital'
+
+}
+,
+{
+
+  id:12,
+  title:'Antworks',
+  desc:'Founded by Paul Boulos in 2018, Antworks Consulting is a business coaching and business transformation consulting firm based out of Dubai serving the region. Through its global partnerships it focuses on a unique methodology of delivering its services.',
+  image:'/brands/Antworks Consulting - Final Logo.jpg',
+  link:'www.antworksconsultants.com',
+  linkden:'https://www.linkedin.com/in/paulboulos',
 
 
 
 
+
+}
+,
+{
+
+  
+  id:13,
+  title:'Endscape Mena',
+  desc:'Endspace leverages today’s digital landscape and advanced technology toimprove business performance. Through strategic research and innovativecloud-based solutions, we drive revenue growth and expand business horizons.We collaborate closely with clients and partners to craft tailored solutionsthat address unique needs and industry challenges. Our agile approach encompasses everything from exploring emerging technologies to delivering scalable solutions.',
+  image:'/brands/endspace.png',
+  link:'https://endspacemena.com'
+
+}
+,
+{
+  
+  id:14,
+  title:'Ashia',
+  desc:'Ashia, founded in 1995, is your trusted partner in crafting unique and customized gifts that leave a lasting impression. With expertise in embroidery and customization, and a presence in UAE, Lebanon, and Egypt, we bring your concepts to life with tailored solutions for events and business needs. From multinationals to advertising agencies, our bespoke services and live event embroidery ensure your brand stands out.',
+  image:'/brands/Ashia logo.png',
+  link:'www.ashia.ae'
+
+
+
+
+}
 
 
 

@@ -14,7 +14,7 @@ export default function ClientsLogo() {
             <p class="  text-[30px]   font-normal  text-[#191919]  xl:text-[60px]">
 
           
-            <span className="!mr-2">  We’re</span>
+            <span className="!mr-2">  We're</span>
             <span className="text-[#191919] inline-block  uppercase font-semibold fle items-center">
 
            
