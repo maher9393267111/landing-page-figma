@@ -45,20 +45,18 @@ export default function SectionThree() {
         <div className="w-[90%] mx-auto pt-8 ">
           <img src="/sectt.png" className=" w-full sm:w-1/4 " />
           <p className="sm:ml-auto mt-4 sm:mt-0 sm:w-1/2   font-raleway">
-            Choosing <b>Unlmtd</b> means working with top talent who genuinely
-            care about your success. Our approachable and knowledgeable team is
-            dedicated to achieving your goals with ease and confidence.
+            At <b>Unlmtd</b> our collective success starts with you. We work with top independent agencies and industy experts to unlock growth, innovation and strategic business opportunities that enable you to excel in the competitive global marketplace.
           </p>
 
           {/* ----------  COMPANIES SECTION ------ */}
 
           <div>
-            <p className="text-xs ml-1 mb-3 font-semibold hidden ">
+            <p className="text-xs ml-1 mb-3 font-semibold hidden  md:block ">
               Meet the collective
             </p>
-            {/* <p className="ml-1 capitalize  block mt-4 font-bold text-[16px] sm:hidden">
+            <p className="ml-1 capitalize  block mt-4 font-bold text-[16px] md:hidden">
               our companies
-            </p> */}
+            </p>
 
             <CompanySlider/>
 

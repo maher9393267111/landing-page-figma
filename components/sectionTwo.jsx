@@ -13,7 +13,7 @@ export default function SectionTwo() {
         <div className="sm:w-[90%] mx-auto mt-12 !mb-28">
           <div className="flex flex-col sm:flex-row  gap-4">
             <img
-              className="object-cover hidden sm:block w-[250px] h-[280px] p-4"
+              className="object-cover hidden sm:block w-[250px] h-[280px] p-2"
               src="/A_image.png"
             />
             <div className="flex gap-4 sm:hidden">
@@ -101,6 +101,11 @@ export default function SectionTwo() {
               <div>Management Consultancy</div>
               <div>PR &amp; Corporate Communications</div>
               <div>Fractional Executive Support</div>
+              <div>Business Consulting &amp; Transformation</div>
+
+<div>AI integration</div>
+<div>Research</div>
+
             </div>
           </div>
         </div>

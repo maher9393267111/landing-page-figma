@@ -62,7 +62,7 @@ export default function MemberModal({ isOpen, setIsOpen, member }) {
 <div className="">
 
 <div>
-    <p className=" font-thin text-[32px]"> 
+    <p className=" font-thin text-[20px] md:text-[32px]"> 
     <a className="w-full h-full text-thin my-2  !no-underline !text-black" href={member?.link} target="_blank">
 
     <span className=" font-bold">{member?.first} </span>  {member?.last}
@@ -73,7 +73,7 @@ export default function MemberModal({ isOpen, setIsOpen, member }) {
        </p>
 
 
-<p className="text-[18px] opacity-[0.8]  mb-4 font-thin  text-[#191919]">{member?.title}</p>
+<p className=" text-[12px] md:text-[18px] opacity-[0.8]  mb-4 font-thin  text-[#191919]">{member?.title}</p>
 
 
 {/* {member?.link !== '' && */}
@@ -83,7 +83,7 @@ export default function MemberModal({ isOpen, setIsOpen, member }) {
 {/* } */}
 
 </div>
-                    <div className="w-[90%] md:text-[18px] text-black">
+                    <div className="w-[90%] text-[12px] md:text-[18px] text-black">
 
 
 
@@ -112,3 +112,5 @@ export default function MemberModal({ isOpen, setIsOpen, member }) {
     </Transition>
   );
 }
+
+
