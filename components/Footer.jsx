@@ -93,7 +93,7 @@ export default function Footer() {
                 hello@weareunlmtd.com
               </p>
 
-              <div className="flex gap-8  sm:text-[40px]">
+              <div className="flex gap-8  sm:text-[40px] hidden">
                 <div>LinkedIn</div>
                 <div>Instagram</div>
               </div>
