@@ -160,7 +160,7 @@ export default function Navbar() {
             </div>
             <menu className="flex sm:hidden gap-4 items-center">
               <img
-                className="w-[22px]  h-[22px] -z-3"
+                className="w-[22px]  h-[22px] -z-3 hidden"
                 src="https://unlimed-com.vercel.app/img/color-wheel-1.png"
               />
               <li>
@@ -237,7 +237,7 @@ export default function Navbar() {
               </li>
               <li>
                 <img
-                  className="w-[39px] h-[39px]"
+                  className="w-[39px] h-[39px] hidden"
                   src="https://unlimed-com.vercel.app/img/color-wheel-1.png"
                 />
               </li>
