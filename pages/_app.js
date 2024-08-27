@@ -12,23 +12,7 @@ import Head from "next/head";
 const MyApp = ({ Component, pageProps }) => {
   return (
     <>
- <Head>
-        <title>
-            
-    Unlmtd
-            
-            </title>
-          <link
-           sizes="512x512"
-          
-          rel="icon" href="/un.png" />
 
-   
-
-
-
-
-        </Head>
 
       <ChakraProvider>
         <Component {...pageProps} />
