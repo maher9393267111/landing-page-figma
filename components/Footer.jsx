@@ -38,22 +38,23 @@ export default function Footer() {
                 our collective expertise.
               </p>
             </div>
-            <div className="text-center mx-auto w-[100%] p-12 lg:px-0 lg:!w-auto">
+            <div className="text-cente mx-auto w-[100%] p-12 lg:px-0 lg:!w-auto">
               <button
               
               onClick={() => {
-                // const element = document.getElementById("contact");
-                // element?.scrollIntoView({
-                //   behavior: "smooth",
-                // });
+          
 
                 setIsOpen(true)
               }}
               
-              className="bg-[#82C809] lg:w-[370px] md:h-[70px] py-3 rounded-md cursor-pointer px-16  flex items-center">
-                <img src="/btn.png" />
-                <span className="text-white">lock Potential</span>
+              className="bg-[#82C809] w-full text-center lg:w-[370px] md:h-[70px] py-3 rounded-md cursor-pointer px-4  md:px-16  justify-center flex items-center">
+                <img className="" src="/btn.png" />
+                <span className="text-white md:text-[22px]  text-[18px] ">lock Potential</span>
               </button>
+
+
+
+
             </div>
           </div>
         </div>

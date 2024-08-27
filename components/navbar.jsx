@@ -6,6 +6,7 @@ import { TypeAnimation } from "react-type-animation";
 import ContactModal from "./modals/contactModal";
 import CollabrateModal from "./modals/collabrateModal";
 import { motion, useInView, useAnimation } from "framer-motion";
+import Link from "next/link";
 import {
   Modal,
   ModalOverlay,
@@ -152,10 +153,13 @@ export default function Navbar() {
           <div className="w-[90%] flex items-center   justify-between mx-auto">
             <div>
               {!open && (
+                <Link href='/'>
+               
                 <img
                   className="md:w-[204px] md:h-[71px] w-[165px] h-[60px]"
                   src="/logo.png"
                 />
+                </Link>
               )}
             </div>
             <menu className="flex sm:hidden gap-4 items-center">
@@ -246,6 +250,7 @@ export default function Navbar() {
         </div>
 
 
+{/* ------OVERLAY----- */}
         <div className="bg-ble-950  bg-[#080852]   !over-flow-x-hidden  z-1  bg-opacity-50 w-full h-full">
           <div className="flex z-50 pt-12 md:pt-2 items-center w-[90%] h-full mx-auto">
             <div>
@@ -281,39 +286,19 @@ export default function Navbar() {
 
 
 
-{/* <motion.p
-                  initial={{ y: 10, opacity: 0 }}
-                  animate={{ y: -20, opacity: 1 }}
-                  transition={{ duration: 1 }}
-                  className="mt-4 sm:text-md/relaxed text-white"
-                  key={text[currentIndex]}
-                >
-                  ”{text[currentIndex]}”
-                </motion.p>
- */}
+
 
 
 
                     </motion.span>
 
-                    {/* <span className="mx-2 text-[40px] lg-text-[155px]">Potential</span> */}
                   </div>
-                  {/* Potential */}
+                
                 </p>
-                {/* <img class="sm:hidden w-[90%]" src="/assets/icon-ft.png" /> */}
+             
               </div>
 
-              {/* <Button
-         
-            onClick={onOpen}
-            // onClick={openModal}
-            className="bg-white flex justify-center items-center p-4 w-[300px] text-[#080852] font-bold rounded-md mt-4">
-              <span>
-                <img className="w-[24px] h-[15px]" src="/btn2.png" alt="" />
-              </span>
-              Collbrate With Us
-            </Button> */}
-
+      
 
 
 
@@ -345,10 +330,13 @@ export default function Navbar() {
               >
                 <div className="flex items-center justify-between w-full">
                   <div className="flex justify-between w-full   px-12">
+                  <Link href='/'>
                     <img
                       src="https://unlimed-com.vercel.app/img/logowhite.png"
                       className="w-[165px]  h-[60px]"
                     />
+
+</Link>
                     <button onClick={handleToggleMenu}>
                       <img src="/close.png" className="w-4 h-4" alt="" />
                     </button>

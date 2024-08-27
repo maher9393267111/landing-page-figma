@@ -14,18 +14,7 @@ import PeopleSlider from './PeopleSlider'
 import CompanySlider from './CompanieSlider'
 
 export default function SectionThree() {
-  const people = [
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-    { id: 1, first: "maher", last: "ghanem", image: "/user.png" },
-  ];
+
 
   return (
     <div 
@@ -40,7 +29,7 @@ export default function SectionThree() {
       <div className=" bg-[#f5f5f5] w-full  bg-[url('/clip-path-group.png')] bg-contain ">
         <img
           src="/sec-three-green.png"
-          className="-mt-20 relative  hidden sm:block h-[150px] object-cover left-[87%]"
+          className="-mt-20 relative  hidden sm:block h-[150px] object-cover righ-[-90%] left-[88%] "
         />
         <div className="w-[90%] mx-auto pt-8 ">
           <img src="/sectt.png" className=" w-full sm:w-1/4 " />

@@ -9,7 +9,7 @@ export default function SectionTwo() {
   //  src='bg-sec3.png'
    src="/Mask.png"
   
-  alt="wallpaper" className="absolute  inset-0 w-full h-full object-cover mix-blend-overlay"/>
+  alt="wallpaper" className="absolute !bg-opacity-5 !bg-whit  inset-0 w-full h-full object-cover mix-blend-overla z-50"/>
 
         <div className="sm:w-[90%] mx-auto mt-12 !mb-28">
           <div className="flex flex-col sm:flex-row  gap-4">
