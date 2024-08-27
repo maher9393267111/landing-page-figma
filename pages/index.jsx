@@ -22,7 +22,7 @@ export default function Index({}) {
 
   return (
     <div className=" ">
-      <NextSeo title ="Unlmtd" />
+      {/* <NextSeo title ="Unlmtd" /> */}
 
 <div className="mb-2  overflow-x-hidden">
 
