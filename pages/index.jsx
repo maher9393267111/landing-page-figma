@@ -19,7 +19,13 @@ export default function Index({}) {
     <div className=" ">
       <Head>
         <title>Unlmtd</title>
-        <link sizes="512x512" rel="icon" href="/Un.png" />
+        <link 
+        sizes="512x512"
+        
+        rel="icon" href="/UN.png" />
+
+
+
       </Head>
 
       <div className="mb-2  overflow-x-hidden">
