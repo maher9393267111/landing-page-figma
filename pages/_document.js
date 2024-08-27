@@ -14,7 +14,11 @@ export default class MyDocument extends Document {
           <link
            sizes="512x512"
           
-          rel="icon" href="/un.png" />
+          rel="icon" href="/Un.png" />
+
+
+
+
 
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
