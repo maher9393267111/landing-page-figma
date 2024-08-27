@@ -1,5 +1,10 @@
 import React from "react";
 
+
+
+
+// --------------------------- sectionTWO SERVICES LIST right and left Columns----------------
+
 export default function SectionTwo() {
   return (
     <div id="services">
@@ -46,7 +51,7 @@ export default function SectionTwo() {
               <div>Marketing and Communication</div>
               <div>Experiential &amp; Events</div>
               <div>Content Production</div>
-              <p>Social, Digital &amp; Performance Marketing</p>
+              <div>Social, Digital &amp; Performance Marketing</div>
               <div>Technology</div>
               <div>Business Coaching</div>
               <div>Business Consulting &amp; Transformation</div>
@@ -92,7 +97,7 @@ export default function SectionTwo() {
               <div>Marketing and Communication</div>
               <div>Experiential &amp; Events</div>
               <div>Content Production</div>
-              <p>Social, Digital &amp; Performance Marketing</p>
+              <div>Social, Digital &amp; Performance Marketing</div>
               <div>Technology</div>
               <div>Business Coaching</div>
               <div>Business Consulting &amp; Transformation</div>

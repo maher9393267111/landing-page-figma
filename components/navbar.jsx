@@ -241,7 +241,7 @@ export default function Navbar() {
               </li>
               <li>
                 <img
-                  className="w-[39px] h-[39px] hidden hidden"
+                  className="w-[39px] h-[39px] hidden"
                   src="https://unlimed-com.vercel.app/img/color-wheel-1.png"
                 />
               </li>
@@ -319,6 +319,9 @@ export default function Navbar() {
             </div>
           </div>
         </div>
+
+
+{/* ----------------------mobile navbar-------------------------------------- */}
 
         {open && (
           <div className=" !z-50 fixed top-0 right-0 left-0 bottom-0 ">

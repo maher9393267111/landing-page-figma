@@ -49,7 +49,7 @@ object-contain w-[100px] h-[50px] lg:w-[140px] lg:h-[55px]  z-10 rounded-lg "
   <a className="!text-black flex gap-2 items-center  !no-underline" href={company?.link} target="_blank">
 
 <span> <img src="/link.png" alt="" /> </span>
-  <p>{company?.link}</p>
+  <div>{company?.link}</div>
   </a>
 </div>
 }

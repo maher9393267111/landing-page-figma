@@ -1,5 +1,9 @@
 import React, { Fragment } from "react";
 
+
+//---------------------- sectionTHREE COMPANY AND PEOPLE SLIDERS--------------------------
+
+
 // import 'swiper/css/grid';
 // import { SwiperSlide, Swiper ,Pagination } from "swiper/react";
 // import "swiper/css";
