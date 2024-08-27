@@ -136,7 +136,7 @@ export default function Navbar() {
 
 
 
-          <div className="absolute block lg:hidden  !overflow-x-hidden -right-[6px] top-32    ">
+          <div className="absolute hidden lg:hidden  !overflow-x-hidden -right-[6px] top-32    ">
             <img src="/circlenavMobile.png" className="w-[300px]" />
           </div>
         </div>
@@ -160,7 +160,7 @@ export default function Navbar() {
             </div>
             <menu className="flex sm:hidden gap-4 items-center">
               <img
-                className="w-[22px]  h-[22px] -z-3"
+                className="w-[22px] hidden   h-[22px] -z-3"
                 src="https://unlimed-com.vercel.app/img/color-wheel-1.png"
               />
               <li>
@@ -237,7 +237,7 @@ export default function Navbar() {
               </li>
               <li>
                 <img
-                  className="w-[39px] h-[39px]"
+                  className="w-[39px] h-[39px] hidden"
                   src="https://unlimed-com.vercel.app/img/color-wheel-1.png"
                 />
               </li>
@@ -255,7 +255,7 @@ export default function Navbar() {
                   We Are
                   <div class="flex  !items-center mx-2">
                     <img
-                      class="lg:w-[170px] lg:h-[105px] w-[34px] sm:w-[40px] sm:h-[26px]  object-center h-[22px] md:ml-2 md:-mb-2"
+                      class="lg:w-[165px] lg:h-[91px] w-[34px] sm:w-[40px] sm:h-[26px]  object-center h-[22px] md:ml-2 md:-mb-2"
                       src="/btn2-big.png"
                     />
 
@@ -273,42 +273,7 @@ export default function Navbar() {
                   `}
                     
                     >
-                      {/* <TypeAnimation
-                        sequence={[
-                          
-                          "BEATABLE",
-                          1000,
-                          "STOPPABLE",
-                          1000,
-                          "AFRAID",
-                          1000,
-                          "CONVENTIONAL",
-                          1000,
-
-                          "WAVERINGL",
-                          1000,
-
-                          "PARALLELED",
-                          1000,
-
-                          "COMPROMISING",
-                          1000,
-                          
-                          "BELIEVABLE",
-                          1000,
-                          "EXPECTED",
-                          1000,
-                          "LMTD",
-                          1000,
-
-
-                        ]}
-                        wrapper="span"
-                        speed={50}
-                        // style={{ fontSize: '2em', display: 'inline-block' }}
-                        repeat={Infinity}
-                      />
-                       */}
+                  
 
 
 {text[currentIndex]}

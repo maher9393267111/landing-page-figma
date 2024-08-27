@@ -1,4 +1,5 @@
 import React from "react";
+import CountUp from 'react-countup';
 
 export default function SectionOne() {
   return (
@@ -27,20 +28,69 @@ export default function SectionOne() {
               <div className="flex  gap-8 md:w-[60%] justify-center">
                 <div className="flex  flex-col w-1/2">
                   <span className="lg:w-1/2  font-tajwal text-[#82C809] font-medium text-[40px]">
-                    30
+                  
+
+                    <CountUp
+                className="counter"
+                enableScrollSpy={true}
+                scrollSpyDelay={1000}
+                scrollSpyOnce={true}
+                start={0}
+                end={30}
+                duration={2}
+                delay={0.2}
+                separator=" "
+                decimals={0}
+                decimal=","
+                prefix=" " //left side of counter
+                suffix="" //right side of counter
+              ></CountUp>
+
+
+
                   </span>
                   <span className="text-[15px]">Years&nbsp;on the market</span>
                 </div>
                 <div className="  flex flex-col w-1/2">
                   <span className="lg:w-1/2 font-tajwal text-[#82C809] font-medium text-[40px]">
-                    400
+                  <CountUp
+                className="counter"
+                enableScrollSpy={true}
+                scrollSpyDelay={1000}
+                scrollSpyOnce={true}
+                start={0}
+                end={400}
+                duration={2}
+                delay={0.2}
+                separator=" "
+                decimals={0}
+                decimal=","
+                prefix=" " //left side of counter
+                suffix="" //right side of counter
+              ></CountUp>
+
                   </span>
                   <span className="text-[15px]">Satisfied Customers</span>
                 </div>
 
                 <div className="  flex flex-col w-1/2">
                   <span className="lg:w-1/2 font-tajwal text-[#82C809] font-medium text-[40px]">
-                  10+
+                  <CountUp
+                className="counter"
+                enableScrollSpy={true}
+                scrollSpyDelay={1000}
+                scrollSpyOnce={true}
+                start={0}
+                end={10}
+                duration={2}
+                delay={0.2}
+                separator=" "
+                decimals={0}
+                decimal=","
+                prefix=" " //left side of counter
+                suffix="" //right side of counter
+              ></CountUp>
++
                   </span>
                   <span className="text-[15px]"> Countries</span>
                 </div>

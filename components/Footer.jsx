@@ -1,7 +1,14 @@
-import React from "react";
+import React , {useState} from "react";
+import CollabrateModal from "./modals/collabrateModal";
 import Link from "next/link";
+     
 
 export default function Footer() {
+
+
+  const [isOpen, setIsOpen] = useState(false);
+
+
   return (
     <div id="contact !z-50">
       <div className="w-[90%] mx-auto !mt-[150px] ">
@@ -32,7 +39,18 @@ export default function Footer() {
               </p>
             </div>
             <div className="text-center mx-auto w-[100%] p-12 lg:px-0 lg:!w-auto">
-              <button className="bg-[#82C809] lg:w-[370px] md:h-[70px] py-3 rounded-md cursor-pointer px-16  flex items-center">
+              <button
+              
+              onClick={() => {
+                // const element = document.getElementById("contact");
+                // element?.scrollIntoView({
+                //   behavior: "smooth",
+                // });
+
+                setIsOpen(true)
+              }}
+              
+              className="bg-[#82C809] lg:w-[370px] md:h-[70px] py-3 rounded-md cursor-pointer px-16  flex items-center">
                 <img src="/btn.png" />
                 <span className="text-white">lock Potential</span>
               </button>
@@ -67,7 +85,10 @@ export default function Footer() {
 
           <div className="">
             <div className="flex  flex-col-rever flex-col md:flex-row justify-between w-full   gap-3">
-              <p className="sm:text-[40px] mt-2 sm:mt-0 text-[20px]">
+              <p 
+              onClick={() => window.location = 'mailto:hello@weareunlmtd.com'}
+              
+              className="sm:text-[40px] mt-2 sm:mt-0 text-[20px] cursor-pointer">
                 hello@weareunlmtd.com
               </p>
 
@@ -104,6 +125,11 @@ export default function Footer() {
 
 
             </div>
+
+            <CollabrateModal isOpen={isOpen} setIsOpen={setIsOpen} />
+
+
+
           </div>
         </div>
       </div>

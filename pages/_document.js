@@ -8,10 +8,13 @@ export default class MyDocument extends Document {
         <Head>
         <title>
             
-    Landing
+    Unlmtd
             
             </title>
-          <link rel="icon" href="/logo.jpg" />
+          <link
+           sizes="512x512"
+          
+          rel="icon" href="/un.png" />
 
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
