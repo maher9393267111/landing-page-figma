@@ -245,6 +245,7 @@ export default function Navbar() {
           </div>
         </div>
 
+
         <div className="bg-ble-950  bg-[#080852]   !over-flow-x-hidden  z-1  bg-opacity-50 w-full h-full">
           <div className="flex z-50 pt-12 md:pt-2 items-center w-[90%] h-full mx-auto">
             <div>

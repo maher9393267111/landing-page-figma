@@ -37,6 +37,7 @@ specifiers:
   react: latest
   react-awesome-reveal: ^4.2.8
   react-canvas-confetti: ^1.4.0
+  react-countup: ^6.5.3
   react-dom: latest
   react-fast-marquee: ^1.6.2
   react-i18next: ^12.0.0
@@ -87,6 +88,7 @@ dependencies:
   react: 18.3.1
   react-awesome-reveal: 4.2.14_ni62dpic3wqlfgtcr6tc4mm634
   react-canvas-confetti: 1.4.0_react@18.3.1
+  react-countup: 6.5.3_react@18.3.1
   react-dom: 18.3.1_react@18.3.1
   react-fast-marquee: 1.6.5_nnrd3gsncyragczmpvfhocinkq
   react-i18next: 12.3.1_2bg7gjljdiypdeumv3wmgzcdam
@@ -3328,6 +3330,10 @@ packages:
       yaml: 1.10.2
     dev: false
 
+  /countup.js/2.8.0:
+    resolution: {integrity: sha512-f7xEhX0awl4NOElHulrl4XRfKoNH3rB+qfNSZZyjSZhaAoUk6elvhH+MNxMmlmuUJ2/QNTWPSA7U4mNtIAKljQ==}
+    dev: false
+
   /create-react-class/15.7.0:
     resolution: {integrity: sha512-QZv4sFWG9S5RUvkTYWbflxeZX+JG7Cz0Tn33rQBJ+WFQTqTfUTjMjiv9tnfXazjsO5r0KhPs+AqCjyrQX6h2ng==}
     dependencies:
@@ -5967,6 +5973,15 @@ packages:
       react: ^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
     dependencies:
       '@babel/runtime': 7.25.4
+      react: 18.3.1
+    dev: false
+
+  /react-countup/6.5.3_react@18.3.1:
+    resolution: {integrity: sha512-udnqVQitxC7QWADSPDOxVWULkLvKUWrDapn5i53HE4DPRVgs+Y5rr4bo25qEl8jSh+0l2cToJgGMx+clxPM3+w==}
+    peerDependencies:
+      react: '>= 16.3.0'
+    dependencies:
+      countup.js: 2.8.0
       react: 18.3.1
     dev: false
 
