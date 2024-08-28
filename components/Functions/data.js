@@ -212,7 +212,7 @@ export const companyData = [
   id:8,
   title:'Mia',
   desc:"We focus on providing you with unparalleled, fully customized experiential and BTL marketing solutions; we are obsessively passionate about it.We want you to feel, see, and experience how we transform ideas into bona fide (real) creations.With MIA's ingenuity, creativity, and the ability to follow our “We Can & We Will” motto, we hope that we will parlay your first impressions into long lasting imprints." ,
-  image:'',
+  image:'https://www.shutterstock.com/image-vector/image-icon-trendy-flat-style-600nw-643080895.jpg',
   link:'www.mia-agency.com'
 
 
