@@ -72,38 +72,7 @@ object-contain w-[100px] h-[50px] lg:w-[140px] lg:h-[55px]  z-10 rounded-lg "
                       </div>
                       <div className="w-[90%] text-[12px] md:text-[18px]">
                         
-                        With a deep belief in the power of talent and the
-                        importance of fostering a supportive environment, Roger
-                        Kanakri founded Unlmtd.Known for his approachable
-                        leadership style, which emphasizes collaboration and
-                        innovation, Roger brings over 25 years of experience
-                        from leading multinational ad agencies such as Saatchi &
-                        Saatchi, BBDO, and Grey. In 2010, Roger transitioned
-                        from the corporate, finance-driven advertising world to
-                        co-found Livingroom Communication. Under his leadership,
-                        Livingroom Communication grew to become one of the
-                        leading independent agency in the region, known for its
-                        innovative approaches and commitment to nurturing
-                        talent. During his tenure at these renowned firms, he
-                        managed and led campaigns for top global brands like
-                        P&G, Warner Brothers World Abu Dhabi, Hershey’s, Lacnor,
-                        Oasis, Red Bull, Nestle, Pepsi, Saudi American Bank,
-                        Commercial Bank of Dubai, Mashreq Bank, JTI, MAF and
-                        many more.   Roger's vision for Unlmtd is to create a
-                        collective consultancy and management network that
-                        transforms the consultancy landscape. By uniting
-                        independent marketing communication companies with
-                        industry experts and strategists, Unlmtd delivers
-                        comprehensive services characterized by agility and
-                        personal engagement. Roger’s management skills and
-                        dedication to nurturing talent ensure that every project
-                        benefits from a wealth of experience and creative
-                        insight. A tech enthusiast with an entrepreneurial
-                        spirit, Roger values happiness, creativity, and
-                        authenticity over conventional norms, politics, and
-                        mediocrity. He balances his professional life with a
-                        deep commitment to his family and a passion for cooking,
-                        which he considers the ultimate expression of love.
+                       {company?.desc}
                       </div>
                     </div>
                   </div>
