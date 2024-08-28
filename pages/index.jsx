@@ -28,7 +28,7 @@ export default function Index({}) {
 
       </Head>
 
-      <div className="mb-2  overflow-x-hidden">
+      <div className="mb-2  overflow-x-hidden ">
         <Navbar />
         <SectionOne />
         <SectionTwo />

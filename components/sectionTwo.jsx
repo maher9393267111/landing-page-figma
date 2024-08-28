@@ -1,5 +1,10 @@
 import React from "react";
 
+
+
+
+// --------------------------- sectionTWO SERVICES LIST right and left Columns----------------
+
 export default function SectionTwo() {
   return (
     <div id="services">
@@ -42,71 +47,69 @@ export default function SectionTwo() {
           </div>
           <div className="text-white hidden sm:flex   space-x-4 sm:space-x-24  justify-center text-center mt-10 lg:mt-24">
             <div className="space-y-16 text-end">
-              <div>Strategy and Planning</div>
-              <div>Marketing and Communication</div>
-              <div>Experiential &amp; Events</div>
-              <div>Content Production</div>
-              <p>Social, Digital &amp; Performance Marketing</p>
-              <div>Technology</div>
-              <div>Business Coaching</div>
-              <div>Business Consulting &amp; Transformation</div>
-
-              <div>AI integration</div>
-              
-
-
-
+       
+            <div>Marketing and Communication</div>
+            <div>Content Development  &amp; Production</div>
+            <div>Social, Digital &amp; Performance Marketing</div>
+            <div>PR &amp; Corporate Communications</div>
+            <div>Technology</div>
+            <div>Branded integration, Branded Content</div>
+            <div>Management Consultancy</div>
+            <div>Business Consulting &amp; Transformation</div>
+            <div>Corporate Governance</div>
+            <div>Training &amp; Development</div>
+            
             </div>
             <div className="relative w-[30px]">
-              <div className="w-[2px] h-full bg-gradient-to-b from-[rgba(255,255,255,1)] to-[rgba(255,255,255,0)]"></div>
+              <div className="w-[2px] h-full bg-gradient-to-b from-[#82C809] to-[rgba(255,255,255,0)]"></div>
               <img
                 className="absolute top-3/4 right-4"
                 src="/circle.png"
               />
             </div>
             <div className="space-y-16 mt-10 text-start">
-              <div>UX/UI &amp; Web/App Design</div>
-              <div>Sustainability</div>
-              <div>Corporate Governance</div>
-              <div>Management Consultancy</div>
-              <div>PR &amp; Corporate Communications</div>
-              <div>Fractional Executive Support</div>
-              <div>Training &amp; Development</div>
-              
-              <div>Research</div>
-
-              
-              <div>CRM</div>
+ <div>Strategy and Planning</div>
+ <div>Experiential &amp; Events management</div>
+ <div>Media Planning &amp; Buying</div>
+ <div>UX/UI &amp; Web/App Design</div>
+ <div>AI integration</div>
+ <div>Content Monetization Solutions</div>
+ <div>Fractional Executive Support</div>
+ <div>Business Coaching</div>
+ <div>Sustainability</div>
+ 
             </div>
           </div>
+{/* -------------------------mobile screen ONE COLUMN---------------------------- */}
+
           <div className="text-white  sm:hidden flex     justify-center  mt-10">
             <div className="relative w-[30px]">
-              <div className="w-[2px] h-full bg-gradient-to-b  to-[rgba(255,255,255,0)] from-[rgba(255,255,255,0.5)]"></div>
+              <div className="w-[2px] h-full bg-gradient-to-b  to-[rgba(255,255,255,0)] from-[#82C809]"></div>
               <img
                 className="absolute top-[14px] right-4"
                 src="/circle.png"
               />
             </div>
             <div className="space-y-8 mt-4">
-              <div>Strategy and Planning</div>
               <div>Marketing and Communication</div>
-              <div>Experiential &amp; Events</div>
-              <div>Content Production</div>
-              <p>Social, Digital &amp; Performance Marketing</p>
-              <div>Technology</div>
-              <div>Business Coaching</div>
-              <div>Business Consulting &amp; Transformation</div>
-              <div>UX/UI &amp; Web/App Design</div>
-              <div>Sustainability</div>
-              <div>Corporate Governance</div>
-              <div>Management Consultancy</div>
+              <div>Strategy and Planning</div>
+              <div>Content Development  &amp; Production</div>
+              <div>Experiential &amp; Events management</div>
+              <div>Social, Digital &amp; Performance Marketing</div>
+              <div>Media Planning &amp; Buying</div>
               <div>PR &amp; Corporate Communications</div>
+              <div>UX/UI &amp; Web/App Design</div>
+              <div>Technology</div>
+              <div>AI integration</div>
+              <div>Branded integration, Branded Content</div>
+              <div>Content Monetization Solutions</div>
+              <div>Management Consultancy</div>
               <div>Fractional Executive Support</div>
               <div>Business Consulting &amp; Transformation</div>
-
-<div>AI integration</div>
-<div>Research</div>
-
+              <div>Business Coaching</div>
+              <div>Corporate Governance</div>
+              <div>Sustainability</div>
+              <div>Training &amp; Development</div>
             </div>
           </div>
         </div>

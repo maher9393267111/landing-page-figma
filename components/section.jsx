@@ -1,9 +1,16 @@
 import React from "react";
 import CountUp from 'react-countup';
 
+
+
+// -----------------------------sectionOne ABOUT section after Animation------------------
+
 export default function SectionOne() {
+
+
+
   return (
-    <div id="about" className="bg-[#f5f5f5] -mt- lg:mt-0 !overflow-x-hidde  relative   w-full">
+    <div id="about" className="bg-[#f5f5f5] -mt- lg:mt-0 !overflow-x-hidde  relative   w-full   ">
 
 
 
